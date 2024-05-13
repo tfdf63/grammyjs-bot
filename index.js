@@ -16,10 +16,10 @@ const hashedPassword = crypto
 // Формируем строку
 const resultString = `${login}:${hashedPassword}:${timestamp}`;
 //Название команды
-let game = 'Акрон х Динамо // 12.05.2024';
+let game = 'Акрон х СКА-Хабаровск // 25.05.2024';
 
 async function ticketsGetInfo(resultString) {
-  const url = `https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=${resultString}&city_id=3296193&event_id=17771827`;
+  const url = `https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=${resultString}&city_id=3296193&event_id=18186293`;
   const response = await fetch(url);
 
   if (!response.ok) {
