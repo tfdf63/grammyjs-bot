@@ -15,7 +15,7 @@ const hashedPassword = crypto
 
 // Формируем строку
 const resultString = `${login}:${hashedPassword}:${timestamp}`;
-//Название команды
+//Название команд
 let game = 'Акрон х Урал // 01.06.2024';
 
 async function ticketsGetInfo(resultString) {
