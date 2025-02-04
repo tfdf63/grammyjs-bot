@@ -4,6 +4,7 @@ require('dotenv').config()
 //Логика билетов
 const crypto = require('crypto')
 
+// const urls = process.env.BOT_API_URL
 const login = process.env.BOT_TICKETS_LOGIN
 const password = process.env.BOT_TICKETS_PASSWORD
 const timestamp = Math.floor(Date.now() / 1000) // Текущая метка времени в секундах
