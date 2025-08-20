@@ -1,0 +1,8 @@
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Bot.fetchUpdates (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:391:27)
+    at async Bot.loop (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:366:29)
+    at async Bot.start (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:305:9)

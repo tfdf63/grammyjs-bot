@@ -1,0 +1,10 @@
+module.exports = {
+  apps: [{
+    name: 'tg-grammy-tickets-bot',
+    script: 'index.js',
+    autorestart: true,        // ← ЭТО НУЖНО ДОБАВИТЬ
+    max_restarts: 10,         // ← ЭТО НУЖНО ДОБАВИТЬ
+    min_uptime: '10s',        // ← ЭТО НУЖНО ДОБАВИТЬ
+    max_memory_restart: '1G'  // ← ЭТО НУЖНО ДОБАВИТЬ
+  }]
+}

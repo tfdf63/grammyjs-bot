@@ -1,0 +1,23 @@
+2025-08-20T14:04:42: [36mСервер запущен! [32mЛогирование настроено.[0m
+2025-08-20T14:05:19: [36m[2025-08-20 18:05:19] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2025-08-20T14:11:28: [36mСервер запущен! [32mЛогирование настроено.[0m
+2025-08-20T14:11:31: [36m[2025-08-20 18:11:31] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2025-08-20T14:16:38: [36mСервер запущен! [32mЛогирование настроено.[0m
+2025-08-20T14:16:43: [36m[2025-08-20 18:16:43] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2025-08-20T14:17:40: [36m[2025-08-20 18:17:40] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2025-08-20T14:18:14: [36m[2025-08-20 18:18:14] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2025-08-20T15:13:27: [36m[2025-08-20 19:13:27] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2025-08-20T15:15:08: [36m[2025-08-20 19:15:08] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2025-08-20T15:41:55: [36m[2025-08-20 19:41:55] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2025-08-20T15:49:54: [36m[2025-08-20 19:49:54] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2025-08-20T15:59:19: [36m[2025-08-20 19:59:19] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2025-08-20T16:00:53: [36m[2025-08-20 20:00:53] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2025-08-20T17:52:06: [36m[2025-08-20 21:52:06] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: неизвестная команда[0m
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Bot.fetchUpdates (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:391:27)
+    at async Bot.loop (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:366:29)
+    at async Bot.start (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:305:9)
