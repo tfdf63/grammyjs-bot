@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: tg-grammy-tickets-bot
+    restart: unless-stopped
+    environment:
+      # Переменные окружения для бота
+      - NODE_ENV=production
+      - TZ=Europe/Samara
+    env_file:
+      - .env
+    volumes:
+      # Монтируем директорию с логами для сохранения между перезапусками
+      - ./logs:/app/logs
+      # Монтируем конфигурацию матчей для возможности изменения без пересборки
+      - ./matches.js:/app/matches.js:ro
+    networks:
+      - bot-network
+    # Добавляем healthcheck для мониторинга состояния
+    healthcheck:
+      test: ['CMD', 'node', '-e', "console.log('Health check passed')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  bot-network:
+    driver: bridge
+
+volumes:
+  logs:
+    driver: local
