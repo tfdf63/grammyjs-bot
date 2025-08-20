@@ -6,7 +6,6 @@ const fetch = require('node-fetch') // Импортируем модуль fetch
 require('dotenv').config()
 //Логика билетов
 const crypto = require('crypto')
-const morgan = require('morgan') // Импортируем morgan для логирования
 const fs = require('fs')
 const path = require('path')
 
@@ -38,6 +37,9 @@ const resultString = `${login}:${hashedPassword}:${timestamp}`
 
 // Импортируем конфигурацию матчей
 const matches = require('./matches.js')
+
+// ID канала для автоматической отправки
+const CHANNEL_ID = '-1002396067751'
 
 async function ticketsGetInfo(resultString, eventId) {
 	const url = `https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=${resultString}&city_id=3296193&event_id=${eventId}`
@@ -117,8 +119,9 @@ const logTelegramRequest = ctx => {
 
 	// Получаем дату в часовом поясе Самары (UTC+4)
 	const now = new Date()
-	// Переводим в формат UTC и добавляем 4 часа для Самары
-	const samaraTime = new Date(now.getTime() + 4 * 60 * 60 * 1000)
+	// Добавляем 4 часа для Самары
+	const samaraOffset = 4 * 60 * 60 * 1000
+	const samaraTime = new Date(now.getTime() + samaraOffset)
 
 	// Форматируем дату в нужном формате
 	const year = samaraTime.getUTCFullYear()
@@ -154,6 +157,10 @@ bot.api.setMyCommands([
 		command: 'tickets',
 		description: 'Информация о билетах',
 	},
+	{
+		command: 'test_channel',
+		description: 'Тест отправки в канал (только для администраторов)',
+	},
 ])
 
 // Мидлвар для логирования запросов к боту
@@ -174,6 +181,58 @@ bot.command('start', async ctx => {
 })
 
 bot.command('tickets', async ctx => {
+	try {
+		const message = await formatTicketsMessage()
+
+		await ctx.reply(message, {
+			parse_mode: 'HTML',
+			disable_web_page_preview: true,
+		})
+	} catch (error) {
+		console.error('Произошла ошибка при получении информации о билетах:', error)
+		await ctx.reply(
+			'Извините, произошла ошибка при получении информации о билетах.'
+		)
+	}
+})
+
+// Команда для тестирования отправки в канал
+bot.command('test_channel', async ctx => {
+	try {
+		await ctx.reply('Отправляю тестовое сообщение в канал...')
+		await sendTicketsToChannel()
+		await ctx.reply('Тестовое сообщение успешно отправлено в канал!')
+	} catch (error) {
+		console.error('Ошибка при тестировании отправки в канал:', error)
+		await ctx.reply(
+			'Произошла ошибка при отправке тестового сообщения в канал.'
+		)
+	}
+})
+
+// <b>${ticketsSum}руб.</b>
+bot.hears(/пипец/, async ctx => {
+	await ctx.reply('Ругаемся?')
+})
+
+bot.catch(err => {
+	const ctx = err.ctx
+	console.error(`Error while handling update ${ctx.update.update_id}:`)
+	const e = err.error
+	if (e instanceof GrammyError) {
+		console.error('Error in request:', e.description)
+	} else if (e instanceof HttpError) {
+		console.error('Could not contact Telegram:', e)
+	} else console.error('Unknown error:', e)
+})
+
+bot.start()
+console.log(
+	`${colors.cyan}Сервер запущен! ${colors.green}Логирование настроено.${colors.reset}`
+)
+
+// Функция для формирования сообщения о билетах (выносим логику из команды)
+async function formatTicketsMessage() {
 	try {
 		// Получаем данные по всем матчам
 		const allResults = await processAllMatches(resultString, matches)
@@ -220,34 +279,94 @@ bot.command('tickets', async ctx => {
 			}
 		}
 
-		await ctx.reply(message, {
+		return message
+	} catch (error) {
+		console.error(
+			'Произошла ошибка при формировании сообщения о билетах:',
+			error
+		)
+		return 'Извините, произошла ошибка при получении информации о билетах.'
+	}
+}
+
+// Функция для автоматической отправки информации о билетах в канал
+async function sendTicketsToChannel() {
+	try {
+		console.log(
+			`${
+				colors.yellow
+			}[${new Date().toISOString()}] Отправка автоматического отчета о билетах в канал...${
+				colors.reset
+			}`
+		)
+
+		const message = await formatTicketsMessage()
+
+		await bot.api.sendMessage(CHANNEL_ID, message, {
 			parse_mode: 'HTML',
 			disable_web_page_preview: true,
 		})
-	} catch (error) {
-		console.error('Произошла ошибка при получении информации о билетах:', error)
-		await ctx.reply(
-			'Извините, произошла ошибка при получении информации о билетах.'
+
+		console.log(
+			`${
+				colors.green
+			}[${new Date().toISOString()}] Отчет о билетах успешно отправлен в канал${
+				colors.reset
+			}`
 		)
+
+		// Логируем успешную отправку
+		const logEntry = `[${new Date().toISOString()}] Автоматическая отправка отчета о билетах в канал ${CHANNEL_ID} - УСПЕШНО`
+		fs.appendFileSync(path.join(logsDir, 'telegram-bot.log'), logEntry + '\n')
+	} catch (error) {
+		console.error(
+			`${
+				colors.red
+			}[${new Date().toISOString()}] Ошибка при отправке отчета в канал:${
+				colors.reset
+			}`,
+			error
+		)
+
+		// Логируем ошибку
+		const logEntry = `[${new Date().toISOString()}] Ошибка при автоматической отправке отчета в канал ${CHANNEL_ID}: ${
+			error.message
+		}`
+		fs.appendFileSync(path.join(logsDir, 'telegram-bot.log'), logEntry + '\n')
 	}
-})
-// <b>${ticketsSum}руб.</b>
-bot.hears(/пипец/, async ctx => {
-	await ctx.reply('Ругаемся?')
-})
+}
 
-bot.catch(err => {
-	const ctx = err.ctx
-	console.error(`Error while handling update ${ctx.update.update_id}:`)
-	const e = err.error
-	if (e instanceof GrammyError) {
-		console.error('Error in request:', e.description)
-	} else if (e instanceof HttpError) {
-		console.error('Could not contact Telegram:', e)
-	} else console.error('Unknown error:', e)
-})
+// Функция для проверки, нужно ли отправить отчет (11:00 по самарскому времени)
+function shouldSendReport() {
+	const now = new Date()
 
-bot.start()
-console.log(
-	`${colors.cyan}Сервер запущен! ${colors.green}Логирование настроено.${colors.reset}`
-)
+	// Получаем текущее время в Самаре (UTC+4)
+	// Используем простой подход: добавляем 4 часа к UTC
+	const samaraOffset = 4 * 60 * 60 * 1000 // 4 часа в миллисекундах
+	const samaraTime = new Date(now.getTime() + samaraOffset)
+
+	const hours = samaraTime.getUTCHours()
+	const minutes = samaraTime.getUTCMinutes()
+
+	// Отправляем только в 11:00 по самарскому времени
+	return hours === 11 && minutes === 0
+}
+
+// Функция для запуска планировщика
+function startScheduler() {
+	// Проверяем каждую минуту
+	setInterval(() => {
+		if (shouldSendReport()) {
+			sendTicketsToChannel()
+		}
+	}, 60 * 1000) // 60 секунд = 1 минута
+
+	console.log(
+		`${colors.cyan}Планировщик автоматической отправки отчетов запущен${colors.reset}`
+	)
+	console.log(
+		`${colors.cyan}Отчеты будут отправляться в канал ${CHANNEL_ID} каждый день в 11:00 по самарскому времени${colors.reset}`
+	)
+}
+
+startScheduler()
