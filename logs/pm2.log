@@ -1002,3 +1002,241 @@ GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other ge
 2025-09-01T09:00:00: [36mСервер запущен! [32mЛогирование настроено.[0m
 2025-09-01T09:00:00: [36mПланировщик автоматической отправки отчетов запущен[0m
 2025-09-01T09:00:00: [36mОтчеты будут отправляться в канал -1002396067751 каждый день в 11:00 по самарскому времени[0m
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Bot.fetchUpdates (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:391:27)
+    at async Bot.loop (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:366:29)
+    at async Bot.start (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:305:9)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+Error: Cannot find module 'qrcode'
+Require stack:
+- /root/tgGrammyTickets/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/index.js:13:16)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+2025-09-01T09:56:19: [36mСервер запущен! [32mЛогирование настроено.[0m
+2025-09-01T09:56:19: [36mПланировщик автоматической отправки отчетов запущен[0m
+2025-09-01T09:56:19: [36mОтчеты будут отправляться в канал -1002396067751 каждый день в 11:00 по самарскому времени[0m
+2025-09-01T09:56:19: [36m[2025-09-01 13:56:19] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /qrcode[0m
+2025-09-01T09:56:19: [36m[2025-09-01 13:56:19] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /start[0m
+2025-09-01T09:56:35: [36m[2025-09-01 13:56:35] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /qrcode[0m
+2025-09-01T09:56:40: [36m[2025-09-01 13:56:40] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: https://matchday.fcakron.ru/[0m
+2025-09-01T09:56:43: [36m[2025-09-01 13:56:43] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: ✅ Подтвердить[0m
+2025-09-01T09:56:56: [36m[2025-09-01 13:56:56] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: cafe[0m
+2025-09-01T09:57:00: [36m[2025-09-01 13:57:00] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: 🖼️ JPG (белый фон)[0m
+2025-09-01T09:57:12: [36m[2025-09-01 13:57:12] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Bot.fetchUpdates (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:391:27)
+    at async Bot.loop (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:366:29)
+    at async Bot.start (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:305:9)
+2025-09-01T11:20:01: [36mСервер запущен! [32mЛогирование настроено.[0m
+2025-09-01T11:20:01: [36mПланировщик автоматической отправки отчетов запущен[0m
+2025-09-01T11:20:01: [36mОтчеты будут отправляться в канал -1002396067751 каждый день в 11:00 по самарскому времени[0m
