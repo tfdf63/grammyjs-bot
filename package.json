@@ -1,13 +1,18 @@
 {
 	"name": "tgbotgrammy",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "Telegram bot for FC Akron with tickets information and QR code generation",
+	"main": "src/index.js",
 	"scripts": {
-		"start": "node index.js",
-		"dev": "nodemon index.js"
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js"
 	},
-	"keywords": [],
+	"keywords": [
+		"telegram",
+		"bot",
+		"tickets",
+		"qrcode"
+	],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
