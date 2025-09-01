@@ -999,3 +999,6 @@ GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other ge
     at async Bot.fetchUpdates (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:391:27)
     at async Bot.loop (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:366:29)
     at async Bot.start (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:305:9)
+2025-09-01T09:00:00: [36mСервер запущен! [32mЛогирование настроено.[0m
+2025-09-01T09:00:00: [36mПланировщик автоматической отправки отчетов запущен[0m
+2025-09-01T09:00:00: [36mОтчеты будут отправляться в канал -1002396067751 каждый день в 11:00 по самарскому времени[0m
