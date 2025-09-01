@@ -1002,6 +1002,7 @@ GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other ge
 2025-09-01T09:00:00: [36mСервер запущен! [32mЛогирование настроено.[0m
 2025-09-01T09:00:00: [36mПланировщик автоматической отправки отчетов запущен[0m
 2025-09-01T09:00:00: [36mОтчеты будут отправляться в канал -1002396067751 каждый день в 11:00 по самарскому времени[0m
+<<<<<<< HEAD
 You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
 GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)
     at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
@@ -1240,6 +1241,717 @@ GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other ge
 2025-09-01T11:20:01: [36mСервер запущен! [32mЛогирование настроено.[0m
 2025-09-01T11:20:01: [36mПланировщик автоматической отправки отчетов запущен[0m
 2025-09-01T11:20:01: [36mОтчеты будут отправляться в канал -1002396067751 каждый день в 11:00 по самарскому времени[0m
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+=======
+2025-09-01T15:58:12: [32m[2025-09-01 15:58:12] [INFO] Сервер запущен! Логирование настроено. [0m
+2025-09-01T15:58:12: [32m[2025-09-01 15:58:12] [INFO] Планировщик автоматической отправки отчетов запущен [0m
+2025-09-01T15:58:12: [32m[2025-09-01 15:58:12] [INFO] Отчеты будут отправляться в канал -1002396067751 каждый день в 11:00 по самарскому времени [0m
+2025-09-01T15:58:13: [36m[2025-09-01 15:58:13] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /start[0m
+2025-09-01T15:58:20: [36m[2025-09-01 15:58:20] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /start[0m
+>>>>>>> 953c8d7fc3338eb414935734edab09774fe4e7bf
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
+Error: Cannot find module '/root/tgGrammyTickets/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:292:27
+    at wrapper (/usr/local/lib/node_modules/pm2/node_modules/async/internal/once.js:12:16)
+    at next (/usr/local/lib/node_modules/pm2/node_modules/async/waterfall.js:96:20)
+    at /usr/local/lib/node_modules/pm2/node_modules/async/internal/onlyOnce.js:12:16
+    at WriteStream.<anonymous> (/usr/local/lib/node_modules/pm2/lib/Utility.js:186:13)
+    at WriteStream.emit (node:events:517:28)
+    at node:internal/fs/streams:77:16
+    at FSReqCallback.oncomplete (node:fs:192:23)
 Error: Cannot find module '/root/tgGrammyTickets/index.js'
     at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
     at Module._load (node:internal/modules/cjs/loader:975:27)

@@ -5,7 +5,13 @@
 	"main": "src/index.js",
 	"scripts": {
 		"start": "node src/index.js",
-		"dev": "nodemon src/index.js"
+		"dev": "nodemon src/index.js",
+		"pm2:start": "pm2 start ecosystem.config.js",
+		"pm2:stop": "pm2 stop tg-grammy-tickets-bot",
+		"pm2:restart": "pm2 restart tg-grammy-tickets-bot",
+		"pm2:logs": "pm2 logs tg-grammy-tickets-bot",
+		"pm2:monit": "pm2 monit",
+		"pm2:delete": "pm2 delete tg-grammy-tickets-bot"
 	},
 	"keywords": [
 		"telegram",
@@ -22,5 +28,8 @@
 		"node-fetch": "^2.7.0",
 		"nodemon": "^3.1.0",
 		"qrcode": "^1.5.3"
+	},
+	"devDependencies": {
+		"pm2": "^6.0.8"
 	}
 }

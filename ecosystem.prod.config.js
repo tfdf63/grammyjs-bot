@@ -3,7 +3,8 @@ module.exports = {
 		{
 			name: 'tg-grammy-tickets-bot',
 			script: 'src/index.js',
-			cwd: process.cwd(), // Используем текущую директорию
+			cron_restart: '0 9 * * *',
+			cwd: '/root/tgGrammyTickets', // Путь для сервера
 			instances: 1,
 			autorestart: true,
 			watch: false,
