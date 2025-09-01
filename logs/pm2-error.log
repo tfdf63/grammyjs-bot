@@ -6,3 +6,846 @@ GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other ge
     at async Bot.fetchUpdates (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:391:27)
     at async Bot.loop (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:366:29)
     at async Bot.start (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:305:9)
+2025-08-21T07:00:42: [31m[2025-08-21T07:00:42.882Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>139</b>\n' +
+      'Пригласительных: <b>10</b>\n' +
+      'Сумма: <b>104 980 ₽</b>\n' +
+      'Средняя стоимость: <b>755 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>5%</b>\n' +
+      'Итого: <b>149</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>26</b>\n' +
+      'Пригласительных: <b>7</b>\n' +
+      'Сумма: <b>41 908 ₽</b>\n' +
+      'Средняя стоимость: <b>1 612 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>33</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>2</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>1 971 ₽</b>\n' +
+      'Средняя стоимость: <b>986 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>0%</b>\n' +
+      'Итого: <b>2</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>9</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>16 491 ₽</b>\n' +
+      'Средняя стоимость: <b>1 832 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>0%</b>\n' +
+      'Итого: <b>9</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-22T07:00:42: Ошибка при получении данных для матча Акрон х Балтика // 31.08.2025: Error: Ошибка в ответе API: Expired Session ID
+    at ticketsGetInfo (/root/tgGrammyTickets/index.js:62:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processAllMatches (/root/tgGrammyTickets/index.js:77:20)
+    at async formatTicketsMessage (/root/tgGrammyTickets/index.js:238:22)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:303:19)
+2025-08-22T07:00:42: Ошибка при получении данных для матча Кубок. Акрон х Локомотив // 16.09.2025: Error: Ошибка в ответе API: Expired Session ID
+    at ticketsGetInfo (/root/tgGrammyTickets/index.js:62:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processAllMatches (/root/tgGrammyTickets/index.js:77:20)
+    at async formatTicketsMessage (/root/tgGrammyTickets/index.js:238:22)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:303:19)
+2025-08-22T07:00:42: Ошибка при получении данных для матча Акрон х Рубин // 20.09.2025: Error: Ошибка в ответе API: Expired Session ID
+    at ticketsGetInfo (/root/tgGrammyTickets/index.js:62:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processAllMatches (/root/tgGrammyTickets/index.js:77:20)
+    at async formatTicketsMessage (/root/tgGrammyTickets/index.js:238:22)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:303:19)
+2025-08-22T07:00:42: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: Error: Ошибка в ответе API: Expired Session ID
+    at ticketsGetInfo (/root/tgGrammyTickets/index.js:62:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processAllMatches (/root/tgGrammyTickets/index.js:77:20)
+    at async formatTicketsMessage (/root/tgGrammyTickets/index.js:238:22)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:303:19)
+2025-08-22T07:00:42: [31m[2025-08-22T07:00:42.692Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '❌ <b>Акрон х Балтика // 31.08.2025</b>\n' +
+      'Ошибка: Ошибка в ответе API: Expired Session ID\n' +
+      '\n' +
+      '❌ <b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      'Ошибка: Ошибка в ответе API: Expired Session ID\n' +
+      '\n' +
+      '❌ <b>Акрон х Рубин // 20.09.2025</b>\n' +
+      'Ошибка: Ошибка в ответе API: Expired Session ID\n' +
+      '\n' +
+      '❌ <b>Акрон х Зенит // 04.10.2025</b>\n' +
+      'Ошибка: Ошибка в ответе API: Expired Session ID\n' +
+      '\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-22T10:36:09: Ошибка при получении данных для матча Акрон х Балтика // 31.08.2025: Error: Ошибка в ответе API: Expired Session ID
+    at ticketsGetInfo (/root/tgGrammyTickets/index.js:62:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processAllMatches (/root/tgGrammyTickets/index.js:77:20)
+    at async formatTicketsMessage (/root/tgGrammyTickets/index.js:238:22)
+    at async /root/tgGrammyTickets/index.js:185:19
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:532:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:532:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+2025-08-22T10:36:09: Ошибка при получении данных для матча Кубок. Акрон х Локомотив // 16.09.2025: Error: Ошибка в ответе API: Expired Session ID
+    at ticketsGetInfo (/root/tgGrammyTickets/index.js:62:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processAllMatches (/root/tgGrammyTickets/index.js:77:20)
+    at async formatTicketsMessage (/root/tgGrammyTickets/index.js:238:22)
+    at async /root/tgGrammyTickets/index.js:185:19
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:532:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:532:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+2025-08-22T10:36:09: Ошибка при получении данных для матча Акрон х Рубин // 20.09.2025: Error: Ошибка в ответе API: Expired Session ID
+    at ticketsGetInfo (/root/tgGrammyTickets/index.js:62:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processAllMatches (/root/tgGrammyTickets/index.js:77:20)
+    at async formatTicketsMessage (/root/tgGrammyTickets/index.js:238:22)
+    at async /root/tgGrammyTickets/index.js:185:19
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:532:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:532:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+2025-08-22T10:36:10: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: Error: Ошибка в ответе API: Expired Session ID
+    at ticketsGetInfo (/root/tgGrammyTickets/index.js:62:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processAllMatches (/root/tgGrammyTickets/index.js:77:20)
+    at async formatTicketsMessage (/root/tgGrammyTickets/index.js:238:22)
+    at async /root/tgGrammyTickets/index.js:185:19
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:532:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:532:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+    at async /root/tgGrammyTickets/node_modules/grammy/out/composer.js:61:13
+2025-08-23T07:00:38: [31m[2025-08-23T07:00:38.507Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>180</b>\n' +
+      'Пригласительных: <b>10</b>\n' +
+      'Сумма: <b>143 513 ₽</b>\n' +
+      'Средняя стоимость: <b>797 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>6%</b>\n' +
+      'Итого: <b>190</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>34</b>\n' +
+      'Пригласительных: <b>7</b>\n' +
+      'Сумма: <b>49 228 ₽</b>\n' +
+      'Средняя стоимость: <b>1 448 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>41</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>11</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>10 537 ₽</b>\n' +
+      'Средняя стоимость: <b>958 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>0%</b>\n' +
+      'Итого: <b>11</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>24</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>31 561 ₽</b>\n' +
+      'Средняя стоимость: <b>1 315 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>0%</b>\n' +
+      'Итого: <b>24</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-24T07:00:03: [31m[2025-08-24T07:00:03.169Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>208</b>\n' +
+      'Пригласительных: <b>10</b>\n' +
+      'Сумма: <b>162 135 ₽</b>\n' +
+      'Средняя стоимость: <b>779 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>7%</b>\n' +
+      'Итого: <b>218</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>34</b>\n' +
+      'Пригласительных: <b>7</b>\n' +
+      'Сумма: <b>49 228 ₽</b>\n' +
+      'Средняя стоимость: <b>1 448 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>41</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>12</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>11 227 ₽</b>\n' +
+      'Средняя стоимость: <b>936 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>0%</b>\n' +
+      'Итого: <b>12</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>31</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>38 880 ₽</b>\n' +
+      'Средняя стоимость: <b>1 254 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>31</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-25T07:00:03: [31m[2025-08-25T07:00:03.410Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>293</b>\n' +
+      'Пригласительных: <b>22</b>\n' +
+      'Сумма: <b>225 212 ₽</b>\n' +
+      'Средняя стоимость: <b>769 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>10%</b>\n' +
+      'Итого: <b>315</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>38</b>\n' +
+      'Пригласительных: <b>7</b>\n' +
+      'Сумма: <b>53 390 ₽</b>\n' +
+      'Средняя стоимость: <b>1 405 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>45</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>12</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>11 227 ₽</b>\n' +
+      'Средняя стоимость: <b>936 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>0%</b>\n' +
+      'Итого: <b>12</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>41</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>50 010 ₽</b>\n' +
+      'Средняя стоимость: <b>1 220 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>41</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-26T07:00:03: [31m[2025-08-26T07:00:03.619Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>356</b>\n' +
+      'Пригласительных: <b>39</b>\n' +
+      'Сумма: <b>280 887 ₽</b>\n' +
+      'Средняя стоимость: <b>789 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>12%</b>\n' +
+      'Итого: <b>395</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>43</b>\n' +
+      'Пригласительных: <b>13</b>\n' +
+      'Сумма: <b>58 388 ₽</b>\n' +
+      'Средняя стоимость: <b>1 358 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>56</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>12</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>11 227 ₽</b>\n' +
+      'Средняя стоимость: <b>936 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>0%</b>\n' +
+      'Итого: <b>12</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>53</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>64 562 ₽</b>\n' +
+      'Средняя стоимость: <b>1 218 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>53</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-27T07:00:03: [31m[2025-08-27T07:00:03.932Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>431</b>\n' +
+      'Пригласительных: <b>53</b>\n' +
+      'Сумма: <b>340 870 ₽</b>\n' +
+      'Средняя стоимость: <b>791 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>15%</b>\n' +
+      'Итого: <b>484</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>45</b>\n' +
+      'Пригласительных: <b>13</b>\n' +
+      'Сумма: <b>60 768 ₽</b>\n' +
+      'Средняя стоимость: <b>1 350 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>58</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>12</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>11 227 ₽</b>\n' +
+      'Средняя стоимость: <b>936 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>0%</b>\n' +
+      'Итого: <b>12</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>63</b>\n' +
+      'Пригласительных: <b>0</b>\n' +
+      'Сумма: <b>73 282 ₽</b>\n' +
+      'Средняя стоимость: <b>1 163 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>63</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-28T07:00:06: [31m[2025-08-28T07:00:06.341Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>501</b>\n' +
+      'Пригласительных: <b>501</b>\n' +
+      'Сумма: <b>399 758 ₽</b>\n' +
+      'Средняя стоимость: <b>798 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>18%</b>\n' +
+      'Итого: <b>1 002</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>50</b>\n' +
+      'Пригласительных: <b>17</b>\n' +
+      'Сумма: <b>67 518 ₽</b>\n' +
+      'Средняя стоимость: <b>1 350 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>67</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>12</b>\n' +
+      'Пригласительных: <b>4</b>\n' +
+      'Сумма: <b>11 227 ₽</b>\n' +
+      'Средняя стоимость: <b>936 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>0%</b>\n' +
+      'Итого: <b>16</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>73</b>\n' +
+      'Пригласительных: <b>27</b>\n' +
+      'Сумма: <b>87 672 ₽</b>\n' +
+      'Средняя стоимость: <b>1 201 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>100</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-29T07:00:06: [31m[2025-08-29T07:00:06.173Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>615</b>\n' +
+      'Пригласительных: <b>667</b>\n' +
+      'Сумма: <b>967 989 ₽</b>\n' +
+      'Средняя стоимость: <b>1 574 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>43%</b>\n' +
+      'Итого: <b>1 282</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>54</b>\n' +
+      'Пригласительных: <b>17</b>\n' +
+      'Сумма: <b>89 258 ₽</b>\n' +
+      'Средняя стоимость: <b>1 653 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>71</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>16</b>\n' +
+      'Пригласительных: <b>4</b>\n' +
+      'Сумма: <b>20 607 ₽</b>\n' +
+      'Средняя стоимость: <b>1 288 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>20</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>79</b>\n' +
+      'Пригласительных: <b>27</b>\n' +
+      'Сумма: <b>95 432 ₽</b>\n' +
+      'Средняя стоимость: <b>1 208 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>106</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-30T07:00:04: [31m[2025-08-30T07:00:04.939Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>933</b>\n' +
+      'Пригласительных: <b>889</b>\n' +
+      'Сумма: <b>1 404 956 ₽</b>\n' +
+      'Средняя стоимость: <b>1 506 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>62%</b>\n' +
+      'Итого: <b>1 822</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>63</b>\n' +
+      'Пригласительных: <b>17</b>\n' +
+      'Сумма: <b>95 274 ₽</b>\n' +
+      'Средняя стоимость: <b>1 512 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>2%</b>\n' +
+      'Итого: <b>80</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>25</b>\n' +
+      'Пригласительных: <b>4</b>\n' +
+      'Сумма: <b>23 879 ₽</b>\n' +
+      'Средняя стоимость: <b>955 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>29</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>88</b>\n' +
+      'Пригласительных: <b>27</b>\n' +
+      'Сумма: <b>102 270 ₽</b>\n' +
+      'Средняя стоимость: <b>1 162 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>115</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-08-31T07:00:05: [31m[2025-08-31T07:00:05.589Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>1 160</b>\n' +
+      'Пригласительных: <b>1 658</b>\n' +
+      'Сумма: <b>1 597 966 ₽</b>\n' +
+      'Средняя стоимость: <b>1 378 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>71%</b>\n' +
+      'Итого: <b>2 818</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>64</b>\n' +
+      'Пригласительных: <b>17</b>\n' +
+      'Сумма: <b>96 864 ₽</b>\n' +
+      'Средняя стоимость: <b>1 514 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>2%</b>\n' +
+      'Итого: <b>81</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>25</b>\n' +
+      'Пригласительных: <b>4</b>\n' +
+      'Сумма: <b>23 879 ₽</b>\n' +
+      'Средняя стоимость: <b>955 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>29</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>93</b>\n' +
+      'Пригласительных: <b>27</b>\n' +
+      'Сумма: <b>106 861 ₽</b>\n' +
+      'Средняя стоимость: <b>1 149 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>120</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+2025-09-01T07:00:05: [31m[2025-09-01T07:00:05.502Z] Ошибка при отправке отчета в канал:[0m GrammyError: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async sendTicketsToChannel (/root/tgGrammyTickets/index.js:305:3) {
+  method: 'sendMessage',
+  payload: {
+    chat_id: '-1002396067751',
+    text: '<b>ИНФОРМАЦИЯ О БИЛЕТАХ ПО ВСЕМ МАТЧАМ</b>\n' +
+      '\n' +
+      '<b>Акрон х Балтика // 31.08.2025</b>\n' +
+      '\n' +
+      'Продано: <b>1 471</b>\n' +
+      'Пригласительных: <b>1 721</b>\n' +
+      'Сумма: <b>1 886 473 ₽</b>\n' +
+      'Средняя стоимость: <b>1 282 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>83%</b>\n' +
+      'Итого: <b>3 192</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Кубок. Акрон х Локомотив // 16.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>76</b>\n' +
+      'Пригласительных: <b>19</b>\n' +
+      'Сумма: <b>113 123 ₽</b>\n' +
+      'Средняя стоимость: <b>1 488 ₽</b>\n' +
+      '\n' +
+      'План: <b>5 989 143 ₽</b>\n' +
+      'Выполнения плана: <b>2%</b>\n' +
+      'Итого: <b>95</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Рубин // 20.09.2025</b>\n' +
+      '\n' +
+      'Продано: <b>26</b>\n' +
+      'Пригласительных: <b>9</b>\n' +
+      'Сумма: <b>24 369 ₽</b>\n' +
+      'Средняя стоимость: <b>937 ₽</b>\n' +
+      '\n' +
+      'План: <b>2 265 385 ₽</b>\n' +
+      'Выполнения плана: <b>1%</b>\n' +
+      'Итого: <b>35</b>\n' +
+      '\n' +
+      '────────────\n' +
+      '\n' +
+      '<b>Акрон х Зенит // 04.10.2025</b>\n' +
+      '\n' +
+      'Продано: <b>107</b>\n' +
+      'Пригласительных: <b>32</b>\n' +
+      'Сумма: <b>124 661 ₽</b>\n' +
+      'Средняя стоимость: <b>1 165 ₽</b>\n' +
+      '\n' +
+      'План: <b>7 522 154 ₽</b>\n' +
+      'Выполнения плана: <b>2%</b>\n' +
+      'Итого: <b>139</b>\n',
+    parse_mode: 'HTML',
+    disable_web_page_preview: true
+  },
+  ok: false,
+  error_code: 400,
+  description: 'Bad Request: chat not found',
+  parameters: {}
+}
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Bot.fetchUpdates (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:391:27)
+    at async Bot.loop (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:366:29)
+    at async Bot.start (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:305:9)

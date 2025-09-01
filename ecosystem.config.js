@@ -2,6 +2,7 @@ module.exports = {
   apps: [{
     name: 'tg-grammy-tickets-bot',
     script: 'index.js',
+    cron_restart: '0 9 * * *',
     cwd: '/root/tgGrammyTickets',
     instances: 1,
     autorestart: true,
