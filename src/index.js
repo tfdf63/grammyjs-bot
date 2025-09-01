@@ -13,7 +13,20 @@ async function main() {
 	} catch (error) {
 		console.error('❌ Ошибка при запуске приложения:', error)
 		console.error('Stack trace:', error.stack)
-		process.exit(1)
+
+		// Не завершаем процесс сразу, даем время на graceful shutdown
+		if (global.bot) {
+			try {
+				await global.bot.stop()
+			} catch (stopError) {
+				console.error('Ошибка при остановке бота:', stopError)
+			}
+		}
+
+		// Ждем немного перед завершением
+		setTimeout(() => {
+			process.exit(1)
+		}, 5000)
 	}
 }
 

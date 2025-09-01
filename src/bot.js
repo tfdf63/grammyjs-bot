@@ -1,6 +1,19 @@
 // Отключаем предупреждения о устаревших функциях
 process.noDeprecation = true
 
+// Глобальная обработка необработанных Promise rejections
+process.on('unhandledRejection', (reason, promise) => {
+	console.error('Необработанное отклонение Promise:', reason)
+	console.error('Promise:', promise)
+	// НЕ завершаем процесс, только логируем ошибку
+})
+
+process.on('uncaughtException', error => {
+	console.error('Необработанное исключение:', error)
+	console.error('Stack trace:', error.stack)
+	// НЕ завершаем процесс, только логируем ошибку
+})
+
 const { Bot, session } = require('grammy')
 
 // Импорты конфигурации
@@ -125,11 +138,27 @@ class TelegramBot {
 			// Запускаем планировщик
 			this.scheduler.start()
 
+			// Отправляем сигнал готовности для PM2
+			if (process.send) {
+				process.send('ready')
+			}
+
 			// В последнюю очередь запускаем бота (это блокирующая операция)
 			await this.bot.start()
 		} catch (error) {
 			this.logger.error('Ошибка при запуске бота', error)
-			process.exit(1)
+
+			// Останавливаем планировщик перед завершением
+			try {
+				this.scheduler.stop()
+			} catch (schedulerError) {
+				this.logger.error('Ошибка при остановке планировщика', schedulerError)
+			}
+
+			// Не завершаем процесс сразу, даем время на graceful shutdown
+			setTimeout(() => {
+				process.exit(1)
+			}, 3000)
 		}
 	}
 

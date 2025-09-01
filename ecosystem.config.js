@@ -8,6 +8,11 @@ module.exports = {
 			autorestart: true,
 			watch: false,
 			max_memory_restart: '1G',
+			// Добавляем настройки для предотвращения дублирования
+			unique: true, // Гарантирует уникальность процесса
+			kill_timeout: 5000, // Время ожидания перед принудительной остановкой
+			wait_ready: true, // Ждет сигнал ready от приложения
+			listen_timeout: 10000, // Таймаут ожидания готовности
 			env: {
 				NODE_ENV: 'production',
 				PORT: 3000,

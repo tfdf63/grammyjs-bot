@@ -70,13 +70,19 @@ class ReportScheduler {
 			} - УСПЕШНО`
 			this.logger.info(logEntry)
 		} catch (error) {
-			this.logger.error('Ошибка при отправке отчета в канал', error)
+			// Не логируем ошибку как критическую, чтобы не вызывать перезапуск
+			this.logger.warn(
+				'Ошибка при отправке отчета в канал (не критическая)',
+				error.message
+			)
 
 			// Логируем ошибку
 			const logEntry = `[${new Date().toISOString()}] Ошибка при автоматической отправке отчета в канал ${
 				config.bot.channelId
 			}: ${error.message}`
-			this.logger.error(logEntry)
+			this.logger.warn(logEntry)
+
+			// НЕ выбрасываем ошибку дальше, чтобы не вызывать перезапуск процесса
 		}
 	}
 }
