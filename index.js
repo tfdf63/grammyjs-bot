@@ -9,6 +9,10 @@ const crypto = require('crypto')
 const fs = require('fs')
 const path = require('path')
 
+// Импорты для QR-кодов
+const QRCode = require('qrcode')
+const { session, Keyboard, InputFile } = require('grammy')
+
 // Коды цветов ANSI для консоли
 const colors = {
 	green: '\x1b[32m',
@@ -100,6 +104,19 @@ const { Bot, GrammyError, HttpError } = require('grammy')
 
 const bot = new Bot(process.env.BOT_API_KEY)
 
+// Настраиваем сессии для хранения состояния пользователя
+bot.use(
+	session({
+		initial: () => ({
+			step: null,
+			url: null,
+			utmTag: null,
+			finalUrl: null,
+			format: 'png',
+		}),
+	})
+)
+
 // Настройка логирования с помощью Morgan
 // Создаем директорию logs, если она не существует
 const logsDir = path.join(__dirname, 'logs')
@@ -158,8 +175,8 @@ bot.api.setMyCommands([
 		description: 'Информация о билетах',
 	},
 	{
-		command: 'test_channel',
-		description: 'Тест отправки в канал (только для администраторов)',
+		command: 'qrcode',
+		description: 'Создать QR-код с UTM меткой',
 	},
 ])
 
@@ -172,7 +189,11 @@ bot.use((ctx, next) => {
 bot.command('start', async ctx => {
 	await ctx.react('👍')
 	await ctx.reply(
-		'Привет! Я - бот ФК "Акрон". Молодой и звонкий! <span class="tg-spoiler">Хорошего дня!</span>',
+		'Привет! Я - бот ФК "Акрон". Молодой и звонкий! <span class="tg-spoiler">Хорошего дня!</span>\n\n' +
+			'🎯 Также я умею создавать QR-коды с UTM метками для отслеживания переходов.\n\n' +
+			'Доступные команды:\n' +
+			'/tickets - Информация о билетах\n' +
+			'/qrcode - Создать QR-код с UTM меткой',
 		{
 			parse_mode: 'HTML',
 			disable_web_page_preview: true,
@@ -210,9 +231,218 @@ bot.command('test_channel', async ctx => {
 	}
 })
 
+// Команда создания QR-кода
+bot.command('qrcode', async ctx => {
+	ctx.session.step = 'waiting_url'
+	ctx.session.url = null
+	ctx.session.utmTag = null
+	ctx.session.finalUrl = null
+	ctx.session.format = 'png'
+
+	await ctx.reply(
+		'🔗 Отправьте ссылку, для которой нужно создать QR-код\n\n' +
+			'Пример: https://example.com'
+	)
+})
+
 // <b>${ticketsSum}руб.</b>
 bot.hears(/пипец/, async ctx => {
 	await ctx.reply('Ругаемся?')
+})
+
+// Обработка текстовых сообщений для QR-кодов
+bot.on('message:text', async ctx => {
+	const step = ctx.session.step
+	const text = ctx.message.text
+
+	if (step === 'waiting_url') {
+		// Проверяем валидность URL
+		if (!isValidUrl(text)) {
+			await ctx.reply(
+				'❌ Некорректная ссылка!\n\n' +
+					'Пожалуйста, отправьте корректную ссылку, начинающуюся с http:// или https://'
+			)
+			return
+		}
+
+		ctx.session.url = text
+		ctx.session.step = 'waiting_url_confirmation'
+
+		// Отправляем ссылку с превью для подтверждения
+		await ctx.reply('🔗 Подтвердите ссылку:', {
+			entities: [
+				{
+					type: 'url',
+					offset: 0,
+					length: text.length,
+				},
+			],
+		})
+		await ctx.reply(text, { link_preview_options: { is_disabled: true } })
+
+		// Создаем клавиатуру с кнопками
+		const keyboard = new Keyboard()
+			.text('✅ Подтвердить')
+			.text('✏️ Отредактировать')
+			.resized()
+
+		await ctx.reply('Выберите действие:', {
+			reply_markup: keyboard,
+		})
+	} else if (step === 'waiting_url_confirmation') {
+		// Обработка кнопок подтверждения ссылки
+		if (text === '✅ Подтвердить') {
+			ctx.session.step = 'waiting_utm'
+
+			await ctx.reply(
+				'🏷️ Теперь отправьте UTM метку для кампании\n\n' +
+					'UTM метка должна быть без пробелов (используйте подчеркивания или дефисы)\n' +
+					'Пример: summer_sale, promo2024, newsletter',
+				{ reply_markup: { remove_keyboard: true } }
+			)
+		} else if (text === '✏️ Отредактировать') {
+			ctx.session.step = 'waiting_url'
+			ctx.session.url = null
+
+			await ctx.reply(
+				'🔗 Отправьте ссылку заново\n\n' + 'Пример: https://example.com',
+				{ reply_markup: { remove_keyboard: true } }
+			)
+		} else {
+			await ctx.reply(
+				'🤖 Используйте кнопки выше для подтверждения или редактирования ссылки.'
+			)
+		}
+	} else if (step === 'waiting_utm') {
+		// Проверяем UTM метку на отсутствие пробелов
+		if (text.includes(' ')) {
+			await ctx.reply(
+				'❌ UTM метка не должна содержать пробелы!\n\n' +
+					'Используйте подчеркивания (_) или дефисы (-) вместо пробелов.\n' +
+					'Пример: summer_sale, promo-2024'
+			)
+			return
+		}
+
+		if (text.length === 0) {
+			await ctx.reply(
+				'❌ UTM метка не может быть пустой!\n\n' +
+					'Пожалуйста, введите UTM метку для отслеживания.'
+			)
+			return
+		}
+
+		ctx.session.utmTag = text
+
+		try {
+			// Создаем финальную ссылку с UTM метками
+			ctx.session.finalUrl = createUtmUrl(ctx.session.url, ctx.session.utmTag)
+			ctx.session.step = 'waiting_confirmation'
+
+			await ctx.reply(
+				'✅ Итоговая ссылка с UTM метками:\n\n' +
+					'📊 UTM параметры:\n' +
+					`• utm_medium: qrcode\n` +
+					`• utm_campaign: ${ctx.session.utmTag}\n\n` +
+					'Подтвердите создание QR-кода:'
+			)
+
+			// Отправляем итоговую ссылку без превью
+			await ctx.reply(ctx.session.finalUrl, {
+				link_preview_options: { is_disabled: true },
+				entities: [
+					{
+						type: 'url',
+						offset: 0,
+						length: ctx.session.finalUrl.length,
+					},
+				],
+			})
+
+			// Создаем клавиатуру для выбора формата и подтверждения
+			const qrKeyboard = new Keyboard()
+				.text('📱 PNG (прозрачный фон)')
+				.text('🖼️ JPG (белый фон)')
+				.row()
+				.text('✏️ Отредактировать UTM')
+				.resized()
+
+			await ctx.reply('Выберите формат QR-кода:', {
+				reply_markup: qrKeyboard,
+			})
+		} catch (error) {
+			await ctx.reply('❌ Ошибка при создании UTM ссылки. Попробуйте еще раз.')
+			ctx.session.step = null
+		}
+	} else if (step === 'waiting_confirmation') {
+		// Обработка выбора формата и создания QR-кода
+		if (text === '📱 PNG (прозрачный фон)' || text === '🖼️ JPG (белый фон)') {
+			// Определяем формат
+			const format = text.includes('PNG') ? 'png' : 'jpg'
+			ctx.session.format = format
+
+			await ctx.reply(
+				`⏳ Генерирую QR-код в формате ${format.toUpperCase()}...`,
+				{
+					reply_markup: { remove_keyboard: true },
+				}
+			)
+
+			try {
+				// Создаем уникальное имя файла
+				const filename = `qrcode_${ctx.from.id}_${Date.now()}.${format}`
+				const filepath = path.join(process.cwd(), filename)
+
+				// Генерируем QR-код
+				await generateQRCode(ctx.session.finalUrl, filepath, format)
+
+				// Отправляем файл пользователю как документ
+				await ctx.replyWithDocument(new InputFile(filepath, filename), {
+					caption: `✅ QR-код готов!\n\n🔗 Ссылка: ${
+						ctx.session.finalUrl
+					}\n🏷️ UTM метка: ${
+						ctx.session.utmTag
+					}\n📁 Формат: ${format.toUpperCase()}`,
+				})
+
+				// Удаляем временный файл
+				await fs.promises.unlink(filepath)
+
+				// Сбрасываем сессию
+				ctx.session.step = null
+				ctx.session.url = null
+				ctx.session.utmTag = null
+				ctx.session.finalUrl = null
+				ctx.session.format = 'png'
+
+				await ctx.reply(
+					'🎉 QR-код успешно создан!\n\n' +
+						'Используйте команду /qrcode для создания нового QR-кода.'
+				)
+			} catch (error) {
+				console.error('Ошибка при генерации QR-кода:', error)
+				await ctx.reply('❌ Ошибка при генерации QR-кода. Попробуйте еще раз.')
+				ctx.session.step = null
+			}
+		} else if (text === '✏️ Отредактировать UTM') {
+			ctx.session.step = 'waiting_utm'
+
+			await ctx.reply(
+				'🏷️ Отправьте UTM метку заново\n\n' +
+					'UTM метка должна быть без пробелов (используйте подчеркивания или дефисы)\n' +
+					'Пример: summer_sale, promo2024, newsletter',
+				{ reply_markup: { remove_keyboard: true } }
+			)
+		} else {
+			await ctx.reply(
+				'🤖 Используйте кнопки выше для выбора формата или редактирования UTM метки.'
+			)
+		}
+	} else {
+		// Если пользователь не в процессе создания QR-кода, игнорируем сообщение
+		// (чтобы не мешать другим обработчикам)
+		return
+	}
 })
 
 bot.catch(err => {
@@ -230,6 +460,52 @@ bot.start()
 console.log(
 	`${colors.cyan}Сервер запущен! ${colors.green}Логирование настроено.${colors.reset}`
 )
+
+// Функция валидации URL
+function isValidUrl(string) {
+	try {
+		const url = new URL(string)
+		return url.protocol === 'http:' || url.protocol === 'https:'
+	} catch (_) {
+		return false
+	}
+}
+
+// Функция для создания UTM ссылки
+function createUtmUrl(baseUrl, utmTag) {
+	try {
+		const url = new URL(baseUrl)
+
+		// Добавляем UTM параметры
+		url.searchParams.set('utm_medium', 'qrcode')
+		url.searchParams.set('utm_campaign', utmTag)
+
+		return url.toString()
+	} catch (error) {
+		throw new Error('Ошибка при создании UTM ссылки')
+	}
+}
+
+// Функция генерации QR-кода
+async function generateQRCode(text, filename, format = 'png') {
+	try {
+		const options = {
+			type: format,
+			quality: 0.92,
+			margin: 1,
+			color: {
+				dark: '#000000',
+				light: format === 'png' ? '#0000' : '#FFFFFF', // Прозрачный фон для PNG, белый для JPG
+			},
+			width: 512,
+		}
+
+		await QRCode.toFile(filename, text, options)
+		return filename
+	} catch (error) {
+		throw new Error('Ошибка при генерации QR-кода')
+	}
+}
 
 // Функция для формирования сообщения о билетах (выносим логику из команды)
 async function formatTicketsMessage() {

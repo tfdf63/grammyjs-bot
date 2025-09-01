@@ -840,3 +840,34 @@
 [2025-09-01T07:00:05.509Z] Ошибка при автоматической отправке отчета в канал -1002396067751: Call to 'sendMessage' failed! (400: Bad Request: chat not found)
 [2025-09-01 11:19:00] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets
 [2025-09-01 12:23:59] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets
+[2025-09-01 13:25:00] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /qrcode
+[2025-09-01 13:25:06] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: https://matchday.fcakron.ru/
+[2025-09-01 13:25:12] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: ✅ Подтвердить
+[2025-09-01 13:25:24] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: coffeelike
+[2025-09-01 13:25:50] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: 🎯 Создать QR-код
+[2025-09-01 13:27:30] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /qrcode
+[2025-09-01 13:27:35] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: https://matchday.fcakron.ru/
+[2025-09-01 13:27:39] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: ✅ Подтвердить
+[2025-09-01 13:27:48] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: coffeelike
+[2025-09-01 13:27:51] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: 🎯 Создать QR-код
+[2025-09-01 13:30:29] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /help
+[2025-09-01 13:30:41] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /qrcode
+[2025-09-01 13:30:54] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /start
+[2025-09-01 13:36:23] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /start
+[2025-09-01 13:36:43] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets
+[2025-09-01 13:37:03] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /qrcode
+[2025-09-01 13:37:08] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: https://matchday.fcakron.ru/
+[2025-09-01 13:37:12] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: ✅ Подтвердить
+[2025-09-01 13:37:17] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: Hfurkrveh jfjfhhf
+[2025-09-01 13:37:28] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: coffeelike
+[2025-09-01 13:37:34] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: ✏️ Отредактировать UTM
+[2025-09-01 13:37:39] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: Test
+[2025-09-01 13:37:46] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /start
+[2025-09-01 13:37:51] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: ✏️ Отредактировать UTM
+[2025-09-01 13:38:07] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets
+[2025-09-01 13:44:24] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /qrcode
+[2025-09-01 13:47:07] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /qrcode
+[2025-09-01 13:47:12] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: https://matchday.fcakron.ru/
+[2025-09-01 13:47:15] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: ✅ Подтвердить
+[2025-09-01 13:47:19] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: test
+[2025-09-01 13:47:29] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: 🖼️ JPG (белый фон)
