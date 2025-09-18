@@ -30,18 +30,18 @@ const matches = [
 	// 	planTickets: 4000,
 	// 	planRevenue: 2265385,
 	// },
-	{
-		eventId: 39731107,
-		game: 'Акрон х Балтика // 31.08.2025',
-		planTickets: 4000,
-		planRevenue: 2265385,
-	},
-	{
-		eventId: 41413962,
-		game: 'Кубок. Акрон х Локомотив // 16.09.2025',
-		planTickets: 8000,
-		planRevenue: 5989143,
-	},
+	// {
+	// 	eventId: 39731107,
+	// 	game: 'Акрон х Балтика // 31.08.2025',
+	// 	planTickets: 4000,
+	// 	planRevenue: 2265385,
+	// },
+	// {
+	// 	eventId: 41413962,
+	// 	game: 'Кубок. Акрон х Локомотив // 16.09.2025',
+	// 	planTickets: 8000,
+	// 	planRevenue: 5989143,
+	// },
 	{
 		eventId: 42249357,
 		game: 'Акрон х Рубин // 20.09.2025',
@@ -53,6 +53,12 @@ const matches = [
 		game: 'Акрон х Зенит // 04.10.2025',
 		planTickets: 8000,
 		planRevenue: 7522154,
+	},
+	{
+		eventId: 43608494,
+		game: 'Акрон х Локомотив // 26.10.2025',
+		planTickets: 8000,
+		planRevenue: 4038344,
 	},
 ]
 
