@@ -42,12 +42,12 @@ const matches = [
 	// 	planTickets: 8000,
 	// 	planRevenue: 5989143,
 	// },
-	{
-		eventId: 42249357,
-		game: 'Акрон х Рубин // 20.09.2025',
-		planTickets: 8000,
-		planRevenue: 2265385,
-	},
+	// {
+	// 	eventId: 42249357,
+	// 	game: 'Акрон х Рубин // 20.09.2025',
+	// 	planTickets: 8000,
+	// 	planRevenue: 2265385,
+	// },
 	{
 		eventId: 42315054,
 		game: 'Акрон х Зенит // 04.10.2025',
