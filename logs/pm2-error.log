@@ -881,3 +881,12 @@ GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other ge
 2025-09-08T07:00:07: [33m[2025-09-08 11:00:07] [WARN] [2025-09-08T07:00:07.683Z] Ошибка при автоматической отправке отчета в канал -1002396067751: Call to 'sendMessage' failed! (400: Bad Request: chat not found) [0m
 2025-09-09T07:00:07: [33m[2025-09-09 11:00:07] [WARN] Ошибка при отправке отчета в канал (не критическая) "Call to 'sendMessage' failed! (400: Bad Request: chat not found)"[0m
 2025-09-09T07:00:07: [33m[2025-09-09 11:00:07] [WARN] [2025-09-09T07:00:07.962Z] Ошибка при автоматической отправке отчета в канал -1002396067751: Call to 'sendMessage' failed! (400: Bad Request: chat not found) [0m
+2025-09-21T11:02:30: [31m[2025-09-21 15:02:30] [ERROR] Ошибка при запуске бота GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by setWebhook request)
+    at toGrammyError (/root/tgGrammyTickets/node_modules/grammy/out/core/error.js:35:12)
+    at ApiClient.callApi (/root/tgGrammyTickets/node_modules/grammy/out/core/client.js:90:48)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Bot.fetchUpdates (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:391:27)
+    at async Bot.loop (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:366:29)
+    at async Bot.start (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:305:9)
+    at async TelegramBot.start (/root/tgGrammyTickets/src/bot.js:147:4)
+    at async main (/root/tgGrammyTickets/src/index.js:12:3)[0m
