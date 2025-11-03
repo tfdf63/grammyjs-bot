@@ -48,17 +48,29 @@ const matches = [
 	// 	planTickets: 8000,
 	// 	planRevenue: 2265385,
 	// },
+	// {
+	// 	eventId: 42315054,
+	// 	game: 'Акрон х Зенит // 04.10.2025',
+	// 	planTickets: 8000,
+	// 	planRevenue: 7522154,
+	// },
+	// {
+	// 	eventId: 43608494,
+	// 	game: 'Акрон х Локомотив // 26.10.2025',
+	// 	planTickets: 8000,
+	// 	planRevenue: 4038344,
+	// },
 	{
-		eventId: 42315054,
-		game: 'Акрон х Зенит // 04.10.2025',
+		eventId: 48450863,
+		game: 'Акрон х Сочи // 21.11.2025',
 		planTickets: 8000,
-		planRevenue: 7522154,
+		planRevenue: 3076000,
 	},
 	{
-		eventId: 43608494,
-		game: 'Акрон х Локомотив // 26.10.2025',
+		eventId: 48620447,
+		game: 'Акрон х Пари НН // 29.11.2025',
 		planTickets: 8000,
-		planRevenue: 4038344,
+		planRevenue: 3076000,
 	},
 ]
 
