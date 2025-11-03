@@ -890,3 +890,531 @@ GrammyError: Call to 'getUpdates' failed! (409: Conflict: terminated by other ge
     at async Bot.start (/root/tgGrammyTickets/node_modules/grammy/out/bot.js:305:9)
     at async TelegramBot.start (/root/tgGrammyTickets/src/bot.js:147:4)
     at async main (/root/tgGrammyTickets/src/index.js:12:3)[0m
+2025-10-22T14:06:37: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:421ae772bdd56f7f08fbe9abaac4db70eb3c46ac:1761141997&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T14:06:37: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:421ae772bdd56f7f08fbe9abaac4db70eb3c46ac:1761141997&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T14:06:46: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:40f4ae876d887f85b8cb8af8bdf3ec388efaa791:1761142006&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T14:06:46: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:40f4ae876d887f85b8cb8af8bdf3ec388efaa791:1761142006&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T14:07:20: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:c04bbdbfaf057946eb92208f2ab46d08061f653c:1761142040&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T14:07:20: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:c04bbdbfaf057946eb92208f2ab46d08061f653c:1761142040&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T14:07:36: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:f671d74abd5458f01f9df9dd2b62dfafb73d9a9e:1761142056&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T14:07:36: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:f671d74abd5458f01f9df9dd2b62dfafb73d9a9e:1761142056&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T14:09:12: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:c950c5da021adc12be3ecb0813c5b40b37d565c1:1761142152&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T14:09:12: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:c950c5da021adc12be3ecb0813c5b40b37d565c1:1761142152&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:05:38: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:668d814d021c60c4d265c7820c71bbf693d60e28:1761152738&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:05:38: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:668d814d021c60c4d265c7820c71bbf693d60e28:1761152738&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:05:45: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:68b3dca22c1abc1d1e82c982a06c305a1dba26e2:1761152745&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:05:45: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:68b3dca22c1abc1d1e82c982a06c305a1dba26e2:1761152745&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:05:46: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:23614dac8fd1f56b4bc60b4349aef5f9056b3a00:1761152746&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:05:46: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:23614dac8fd1f56b4bc60b4349aef5f9056b3a00:1761152746&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:05:56: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:1e3d7966d21ccaa0e932ad5707cb97cbcd18ee28:1761152756&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:05:56: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:1e3d7966d21ccaa0e932ad5707cb97cbcd18ee28:1761152756&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:06:56: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:b3c629eafe43fea2147083cfa4d66ea1b84ada43:1761152816&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:06:56: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:b3c629eafe43fea2147083cfa4d66ea1b84ada43:1761152816&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:07:47: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:b4cb37cd574fdbcfacdd4c11906ec5ee2e0f974f:1761152867&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T17:07:47: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:b4cb37cd574fdbcfacdd4c11906ec5ee2e0f974f:1761152867&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:01:24: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:4c4221ccc2d993e1f712da39f5be69eb55447e6d:1761159684&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:01:24: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:4c4221ccc2d993e1f712da39f5be69eb55447e6d:1761159684&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:02:24: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:6d8659460388a2f265804e1209c109ece3570bf6:1761159744&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:02:24: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:6d8659460388a2f265804e1209c109ece3570bf6:1761159744&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:02:26: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:62b501530fb67aab33894e8c6221927c086c7820:1761159746&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:02:26: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:62b501530fb67aab33894e8c6221927c086c7820:1761159746&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:41:45: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:4ea328f772084e21288ba0921cc4e0187caea5f7:1761162105&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:41:45: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:4ea328f772084e21288ba0921cc4e0187caea5f7:1761162105&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:42:10: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:6779de59dc8f6561915dc30628b2bc18295f53ff:1761162130&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:42:10: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:6779de59dc8f6561915dc30628b2bc18295f53ff:1761162130&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:42:19: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:660ca0422a8b600109ae13503e949b7fddf1797e:1761162139&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:42:19: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:660ca0422a8b600109ae13503e949b7fddf1797e:1761162139&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:43:26: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:7e2bbcc00389fdd4b9adc048a14d186b2408fbd7:1761162206&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:43:26: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:7e2bbcc00389fdd4b9adc048a14d186b2408fbd7:1761162206&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:43:29: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:e8e1df7f1799f905963be996b0de61fe3f2ade14:1761162209&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:43:29: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:e8e1df7f1799f905963be996b0de61fe3f2ade14:1761162209&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:43:34: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:3c21f76ae63cdaf6a82af81d8378730d81276155:1761162214&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:43:34: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:3c21f76ae63cdaf6a82af81d8378730d81276155:1761162214&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:43:43: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:6183a84eb83fa4ea2132f6a5db0207bf32c9be8f:1761162223&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:43:43: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:6183a84eb83fa4ea2132f6a5db0207bf32c9be8f:1761162223&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:45:10: Ошибка при получении данных для матча Акрон х Зенит // 04.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:052f0a149f8601e0253f4396e0dfcf6a0a316a3f:1761162310&city_id=3296193&event_id=42315054 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-10-22T19:45:10: Ошибка при получении данных для матча Акрон х Локомотив // 26.10.2025: FetchError: request to https://api.tickets.yandex.net/api/crm/?action=crm.order.ticket.list&auth=fca_api:052f0a149f8601e0253f4396e0dfcf6a0a316a3f:1761162310&city_id=3296193&event_id=43608494 failed, reason: getaddrinfo EAI_AGAIN api.tickets.yandex.net
+    at ClientRequest.<anonymous> (/root/tgGrammyTickets/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
