@@ -60,17 +60,23 @@ const matches = [
 	// 	planTickets: 8000,
 	// 	planRevenue: 4038344,
 	// },
+	// {
+	// 	eventId: 48450863,
+	// 	game: 'Акрон х Сочи // 21.11.2025',
+	// 	planTickets: 8000,
+	// 	planRevenue: 3076000,
+	// },
+	// {
+	// 	eventId: 48620447,
+	// 	game: 'Акрон х Пари НН // 29.11.2025',
+	// 	planTickets: 8000,
+	// 	planRevenue: 3076000,
+	// },
 	{
-		eventId: 48450863,
-		game: 'Акрон х Сочи // 21.11.2025',
+		eventId: 57367443,
+		game: 'Акрон х Ахмат // 15.03.2026',
 		planTickets: 8000,
-		planRevenue: 3076000,
-	},
-	{
-		eventId: 48620447,
-		game: 'Акрон х Пари НН // 29.11.2025',
-		planTickets: 8000,
-		planRevenue: 3076000,
+		planRevenue: 4000000,
 	},
 ]
 
