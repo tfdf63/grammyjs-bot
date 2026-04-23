@@ -2,4 +2,6 @@
 .git
 .env
 .env.prod
-.commandsPM2.md
+commandsPM2.md
+data/tickets-snapshots.json
+data/tickets-snapshots.json.tmp

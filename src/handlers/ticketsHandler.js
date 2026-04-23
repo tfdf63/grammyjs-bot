@@ -2,6 +2,7 @@ const { Keyboard } = require('grammy')
 const TicketsService = require('../services/ticketsService')
 const ErrorHandler = require('../middleware/errorHandler')
 const matches = require('../../matches')
+const { filterMatchesForTickets } = require('../utils/matchFilter')
 
 class TicketsHandler {
 	constructor(ticketsService) {
@@ -15,7 +16,9 @@ class TicketsHandler {
 	 */
 	async handleTicketsCommand(ctx) {
 		try {
-			const message = await this.ticketsService.formatTicketsMessage(matches)
+			const message = await this.ticketsService.formatTicketsMessage(
+				filterMatchesForTickets(matches)
+			)
 
 			await ctx.reply(message, {
 				parse_mode: 'HTML',
@@ -54,7 +57,9 @@ class TicketsHandler {
 	 */
 	async sendTicketsToChannel(channelId) {
 		try {
-			const message = await this.ticketsService.formatTicketsMessage(matches)
+			const message = await this.ticketsService.formatTicketsMessage(
+				filterMatchesForTickets(matches)
+			)
 
 			// Здесь нужно передать bot instance из основного файла
 			// Пока что возвращаем сообщение для дальнейшей отправки

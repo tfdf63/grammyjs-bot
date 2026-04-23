@@ -1,4 +1,5 @@
 require('dotenv').config()
+const path = require('path')
 
 // Проверка обязательных переменных окружения
 const requiredEnvVars = [
@@ -47,5 +48,10 @@ module.exports = {
 	scheduler: {
 		reportHour: 11, // Время отправки отчета (по самарскому времени)
 		checkInterval: 60 * 1000, // Интервал проверки (1 минута)
+	},
+	snapshots: {
+		filePath:
+			process.env.TICKETS_SNAPSHOTS_PATH ||
+			path.join(process.cwd(), 'data', 'tickets-snapshots.json'),
 	},
 }

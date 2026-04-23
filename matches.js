@@ -1,5 +1,6 @@
 // Конфигурация матчей
 const matches = [
+<<<<<<< HEAD
 	// {
 	// 	eventId: 39663552,
 	// 	game: 'Акрон х Крылья Советов // 19.07.2025',
@@ -93,18 +94,140 @@ const matches = [
 	{
 		eventId: 61067766,
 		game: 'Акрон х Динамо Мх // 23.04.2026',
+=======
+	{
+		eventId: 39663552,
+		matchDate: '2025-07-19',
+		game: 'Акрон х Крылья Советов',
+		planTickets: 15000,
+		planRevenue: 8436154,
+	},
+	{
+		eventId: 39873507,
+		matchDate: '2025-07-29',
+		game: 'Кубок. Акрон х Балтика',
+		planTickets: 4500,
+		planRevenue: 2957692,
+	},
+	{
+		eventId: 39719522,
+		matchDate: '2025-08-03',
+		game: 'Акрон х Спартак',
+		planTickets: 15000,
+		planRevenue: 8512013,
+	},
+	{
+		eventId: 39879676,
+		matchDate: '2025-08-12',
+		game: 'Кубок. Акрон х ЦСКА',
+		planTickets: 7000,
+		planRevenue: 5499385,
+	},
+	{
+		eventId: 40529687,
+		matchDate: '2025-08-17',
+		game: 'Акрон х Оренбург',
+		planTickets: 4000,
+		planRevenue: 2265385,
+	},
+	{
+		eventId: 39731107,
+		matchDate: '2025-08-31',
+		game: 'Акрон х Балтика',
+		planTickets: 4000,
+		planRevenue: 2265385,
+	},
+	{
+		eventId: 41413962,
+		matchDate: '2025-09-16',
+		game: 'Кубок. Акрон х Локомотив',
+		planTickets: 8000,
+		planRevenue: 5989143,
+	},
+	{
+		eventId: 42249357,
+		matchDate: '2025-09-20',
+		game: 'Акрон х Рубин',
+		planTickets: 8000,
+		planRevenue: 2265385,
+	},
+	{
+		eventId: 42315054,
+		matchDate: '2025-10-04',
+		game: 'Акрон х Зенит',
+		planTickets: 8000,
+		planRevenue: 7522154,
+	},
+	{
+		eventId: 43608494,
+		matchDate: '2025-10-26',
+		game: 'Акрон х Локомотив',
+		planTickets: 8000,
+		planRevenue: 4038344,
+	},
+	{
+		eventId: 48450863,
+		matchDate: '2025-11-21',
+		game: 'Акрон х Сочи',
+		planTickets: 8000,
+		planRevenue: 3076000,
+	},
+	{
+		eventId: 48620447,
+		matchDate: '2025-11-29',
+		game: 'Акрон х Пари НН',
+		planTickets: 8000,
+		planRevenue: 3076000,
+	},
+	{
+		eventId: 57367443,
+		matchDate: '2026-03-15',
+		game: 'Акрон х Ахмат',
+>>>>>>> 367e35696944d477151d6c5061c81cda73b9b7b1
+		planTickets: 8000,
+		planRevenue: 4000000,
+	},
+	{
+<<<<<<< HEAD
+		eventId: 61074227,
+		game: 'Акрон х Краснодар // 03.05.2026',
+=======
+		eventId: 61062106,
+		matchDate: '2026-04-04',
+		game: 'Акрон х ЦСКА',
+		planTickets: 8000,
+		planRevenue: 7200000,
+	},
+	{
+		eventId: 61113918,
+		matchDate: '2026-04-13',
+		game: 'Акрон х Динамо Мск',
+		planTickets: 8000,
+		planRevenue: 6000000,
+	},
+	{
+		eventId: 61067766,
+		matchDate: '2026-04-23',
+		game: 'Акрон х Динамо Мх',
 		planTickets: 8000,
 		planRevenue: 4000000,
 	},
 	{
 		eventId: 61074227,
-		game: 'Акрон х Краснодар // 03.05.2026',
+		matchDate: '2026-05-03',
+		game: 'Акрон х Краснодар',
+>>>>>>> 367e35696944d477151d6c5061c81cda73b9b7b1
 		planTickets: 8000,
 		planRevenue: 7000000,
 	},
 	{
 		eventId: 61076128,
+<<<<<<< HEAD
 		game: 'Акрон х Ростов // 09.05.2026',
+=======
+		matchDate: '2026-05-09',
+		game: 'Акрон х Ростов',
+>>>>>>> 367e35696944d477151d6c5061c81cda73b9b7b1
 		planTickets: 8000,
 		planRevenue: 5000000,
 	},

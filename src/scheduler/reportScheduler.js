@@ -1,6 +1,7 @@
-const { shouldSendReport } = require('../utils/timeUtils')
+const { shouldSendReport, getSamaraCalendarTodayString } = require('../utils/timeUtils')
+const { filterMatchesForTickets } = require('../utils/matchFilter')
+const { mergeSnapshotForDate } = require('../services/ticketsSnapshotStore')
 const config = require('../config')
-const { colors } = require('../config/constants')
 const Logger = require('../middleware/logger')
 
 class ReportScheduler {
@@ -55,12 +56,17 @@ class ReportScheduler {
 			this.logger.info('Отправка автоматического отчета о билетах в канал...')
 
 			const matches = require('../../matches')
-			const message = await this.ticketsService.formatTicketsMessage(matches)
+			const { message, snapshotMap } =
+				await this.ticketsService.buildChannelTicketsReport(
+					filterMatchesForTickets(matches)
+				)
 
 			await this.bot.api.sendMessage(config.bot.channelId, message, {
 				parse_mode: 'HTML',
 				disable_web_page_preview: true,
 			})
+
+			mergeSnapshotForDate(getSamaraCalendarTodayString(), snapshotMap)
 
 			this.logger.info('Отчет о билетах успешно отправлен в канал')
 
