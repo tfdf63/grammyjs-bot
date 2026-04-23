@@ -72,11 +72,41 @@ const matches = [
 	// 	planTickets: 8000,
 	// 	planRevenue: 3076000,
 	// },
+	// {
+	//	eventId: 57367443,
+	//	game: 'Акрон х Ахмат // 15.03.2026',
+	//	planTickets: 8000,
+	//	planRevenue: 4000000,
+	//},
 	{
-		eventId: 57367443,
-		game: 'Акрон х Ахмат // 15.03.2026',
+		eventId: 61062106,
+		game: 'Акрон х ЦСКА // 04.04.2026',
+		planTickets: 8000,
+		planRevenue: 7200000,
+	},
+	{
+		eventId: 61113918,
+		game: 'Акрон х Динамо Мск // 13.04.2026',
+		planTickets: 8000,
+		planRevenue: 6000000,
+	},
+	{
+		eventId: 61067766,
+		game: 'Акрон х Динамо Мх // 23.04.2026',
 		planTickets: 8000,
 		planRevenue: 4000000,
+	},
+	{
+		eventId: 61074227,
+		game: 'Акрон х Краснодар // 03.05.2026',
+		planTickets: 8000,
+		planRevenue: 7000000,
+	},
+	{
+		eventId: 61076128,
+		game: 'Акрон х Ростов // 09.05.2026',
+		planTickets: 8000,
+		planRevenue: 5000000,
 	},
 ]
 
