@@ -1,6 +1,42 @@
 const fetch = require('node-fetch')
 const config = require('../config')
 const { formatTicketsMessage } = require('../utils/formatters')
+const { getSamaraCalendarYesterdayString } = require('../utils/timeUtils')
+const { getSnapshotForDate } = require('./ticketsSnapshotStore')
+
+/**
+ * Подмешать вчерашние метрики из снимка (ключ eventId) для дельт в сообщении.
+ * @param {Array} results
+ */
+function attachPreviousMetrics(results) {
+	const yesterday = getSamaraCalendarYesterdayString()
+	const snap = getSnapshotForDate(yesterday)
+	for (const r of results) {
+		if (r.tickets) {
+			const key = String(r.match.eventId)
+			r.previousMetrics = snap[key] != null ? snap[key] : null
+		}
+	}
+}
+
+/**
+ * Карта для сохранения снимка за «сегодня» (только успешные ответы API).
+ * @param {Array} results
+ * @returns {Record<string, { sold: number, invites: number, sum: number }>}
+ */
+function buildSnapshotMapFromResults(results) {
+	const map = {}
+	for (const r of results) {
+		if (r.tickets && !r.error) {
+			map[String(r.match.eventId)] = {
+				sold: r.tickets.count,
+				invites: r.tickets.allCount - r.tickets.count,
+				sum: r.tickets.totalPrice,
+			}
+		}
+	}
+	return map
+}
 
 class TicketsService {
 	constructor(authService) {
@@ -55,7 +91,7 @@ class TicketsService {
 				})
 			} catch (error) {
 				console.error(
-					`Ошибка при получении данных для матча ${match.game}:`,
+					`Ошибка при получении данных для матча ${match.game} (${match.matchDate}):`,
 					error
 				)
 				results.push({
@@ -76,6 +112,7 @@ class TicketsService {
 	async formatTicketsMessage(matches) {
 		try {
 			const allResults = await this.processAllMatches(matches)
+			attachPreviousMetrics(allResults)
 			return formatTicketsMessage(allResults)
 		} catch (error) {
 			console.error(
@@ -83,6 +120,31 @@ class TicketsService {
 				error
 			)
 			return 'Извините, произошла ошибка при получении информации о билетах.'
+		}
+	}
+
+	/**
+	 * Один прогон API + HTML и карта для снимка (после успешной отправки в канал).
+	 * @param {Array} matches
+	 * @returns {Promise<{ message: string, snapshotMap: Record<string, { sold: number, invites: number, sum: number }> }>}
+	 */
+	async buildChannelTicketsReport(matches) {
+		try {
+			const allResults = await this.processAllMatches(matches)
+			attachPreviousMetrics(allResults)
+			const message = formatTicketsMessage(allResults)
+			const snapshotMap = buildSnapshotMapFromResults(allResults)
+			return { message, snapshotMap }
+		} catch (error) {
+			console.error(
+				'Произошла ошибка при формировании отчёта о билетах для канала:',
+				error
+			)
+			return {
+				message:
+					'Извините, произошла ошибка при получении информации о билетах.',
+				snapshotMap: {},
+			}
 		}
 	}
 }

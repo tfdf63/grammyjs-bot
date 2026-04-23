@@ -4830,3 +4830,51 @@ Error: Cannot find module '/root/tgGrammyTickets/index.js'
 Получен сигнал SIGINT, останавливаем бота...
 2025-11-03T15:18:44: [32m[2025-11-03 19:18:44] [INFO] Планировщик остановлен [0m
 2025-11-03T15:18:44: [32m[2025-11-03 19:18:44] [INFO] Бот остановлен [0m
+Error: Cannot find module 'grammy'
+Require stack:
+- /Users/slava/code/tgGrammyTickets/grammyjs-bot/src/bot.js
+- /Users/slava/code/tgGrammyTickets/grammyjs-bot/src/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1219:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:123:16)
+    at Object.<anonymous> (/Users/slava/code/tgGrammyTickets/grammyjs-bot/src/bot.js:17:26)
+    at Module._compile (node:internal/modules/cjs/loader:1467:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1551:10)
+    at Module.load (node:internal/modules/cjs/loader:1282:32)
+    at Module._load (node:internal/modules/cjs/loader:1098:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:215:24)
+2026-04-23T14:09:43: Необработанное исключение: Error: Cannot find module 'grammy'
+Require stack:
+- /Users/slava/code/tgGrammyTickets/grammyjs-bot/src/bot.js
+- /Users/slava/code/tgGrammyTickets/grammyjs-bot/src/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1219:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:123:16)
+    at Object.<anonymous> (/Users/slava/code/tgGrammyTickets/grammyjs-bot/src/bot.js:17:26)
+    at Module._compile (node:internal/modules/cjs/loader:1467:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1551:10)
+    at Module.load (node:internal/modules/cjs/loader:1282:32)
+    at Module._load (node:internal/modules/cjs/loader:1098:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:215:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/slava/code/tgGrammyTickets/grammyjs-bot/src/bot.js',
+    '/Users/slava/code/tgGrammyTickets/grammyjs-bot/src/index.js'
+  ]
+}
+2026-04-23T14:09:43: Stack trace: Error: Cannot find module 'grammy'
+Require stack:
+- /Users/slava/code/tgGrammyTickets/grammyjs-bot/src/bot.js
+- /Users/slava/code/tgGrammyTickets/grammyjs-bot/src/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1219:15)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:81:25)
+    at require (node:internal/modules/helpers:123:16)
+    at Object.<anonymous> (/Users/slava/code/tgGrammyTickets/grammyjs-bot/src/bot.js:17:26)
+    at Module._compile (node:internal/modules/cjs/loader:1467:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1551:10)
+    at Module.load (node:internal/modules/cjs/loader:1282:32)
+    at Module._load (node:internal/modules/cjs/loader:1098:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:215:24)
