@@ -126,6 +126,13 @@ const matches = [
 		planTickets: 8000,
 		planRevenue: 5000000,
 	},
+	{
+		eventId: 64713091,
+		matchDate: '2026-05-23',
+		game: 'Акрон х Ротор',
+		planTickets: 20000,
+		planRevenue: 5000000,
+	},
 ]
 
 module.exports = matches
