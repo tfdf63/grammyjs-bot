@@ -6361,3 +6361,655 @@ Error: Cannot find module '/root/tgGrammyTickets/index.js'
 2026-04-23T07:00:14: [32m[2026-04-23 11:00:14] [INFO] [2026-04-23T07:00:14.530Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
 2026-04-23T08:35:31: [36m[2026-04-23 12:35:31] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
 2026-04-23T08:36:36: [36m[2026-04-23 12:36:36] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+/root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T10:56:03: Необработанное исключение: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T10:56:03: Stack trace: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+/root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T10:56:11: Необработанное исключение: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T10:56:11: Stack trace: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+/root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T10:56:22: Необработанное исключение: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T10:56:22: Stack trace: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+/root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T11:09:03: Необработанное исключение: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T11:09:03: Stack trace: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+/root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T11:10:18: Необработанное исключение: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T11:10:18: Stack trace: /root/tgGrammyTickets/matches.js:3
+<<<<<<< HEAD
+^^
+
+SyntaxError: Unexpected token '<<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at Hook._require.Module.require (/usr/local/lib/node_modules/pm2/node_modules/require-in-the-middle/index.js:101:39)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/root/tgGrammyTickets/src/handlers/ticketsHandler.js:4:17)
+2026-04-23T11:16:55: [32m[2026-04-23 15:16:55] [INFO] Сервер запущен! Логирование настроено. [0m
+2026-04-23T11:16:55: [32m[2026-04-23 15:16:55] [INFO] Планировщик автоматической отправки отчетов запущен [0m
+2026-04-23T11:16:55: [32m[2026-04-23 15:16:55] [INFO] Отчеты будут отправляться в канал -1002396067751 каждый день в 11:00 по самарскому времени [0m
+2026-04-23T11:16:55: [36m[2026-04-23 15:16:55] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-23T11:17:00: [36m[2026-04-23 15:17:00] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-23T11:17:04: [36m[2026-04-23 15:17:04] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-23T11:17:09: [36m[2026-04-23 15:17:09] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-23T11:17:12: [36m[2026-04-23 15:17:12] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-23T11:17:16: [36m[2026-04-23 15:17:16] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-23T11:17:20: [36m[2026-04-23 15:17:20] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-23T11:17:24: [36m[2026-04-23 15:17:24] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-23T11:17:28: [36m[2026-04-23 15:17:28] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-23T11:17:31: [36m[2026-04-23 15:17:31] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /qrcode[0m
+2026-04-23T11:32:38: [36m[2026-04-23 15:32:38] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-04-23T13:42:51: [36m[2026-04-23 17:42:51] Пользователь: @y_yanpolskiy (Yan Yanpolskiy, ID: 36225141) | Запрос: /tickets[0m
+2026-04-23T13:52:01: [36m[2026-04-23 17:52:01] Пользователь: @petlitskiy_aleksandr (Александр Петлицкий, ID: 544346415) | Запрос: /tickets[0m
+2026-04-23T13:56:51: [36m[2026-04-23 17:56:51] Пользователь: @y_yanpolskiy (Yan Yanpolskiy, ID: 36225141) | Запрос: /tickets[0m
+2026-04-23T14:05:37: [36m[2026-04-23 18:05:37] Пользователь: @vershnn (Регина Вершинина, ID: 808914549) | Запрос: /start[0m
+2026-04-23T14:05:48: [36m[2026-04-23 18:05:48] Пользователь: @vershnn (Регина Вершинина, ID: 808914549) | Запрос: /tickets[0m
+2026-04-23T14:09:09: [36m[2026-04-23 18:09:09] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-23T14:23:49: [36m[2026-04-23 18:23:49] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-04-24T04:08:29: [36m[2026-04-24 08:08:29] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /start[0m
+2026-04-24T04:08:32: [36m[2026-04-24 08:08:32] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-24T05:29:47: [36m[2026-04-24 09:29:47] Пользователь: @Masrussian (Alex , ID: 465115116) | Запрос: /tickets[0m
+2026-04-24T06:13:06: [36m[2026-04-24 10:13:06] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-24T07:00:56: [32m[2026-04-24 11:00:56] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-04-24T07:01:00: [32m[2026-04-24 11:01:00] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-04-24T07:01:00: [32m[2026-04-24 11:01:00] [INFO] [2026-04-24T07:01:00.214Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-04-24T07:29:31: [36m[2026-04-24 11:29:31] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-04-24T09:02:27: [36m[2026-04-24 13:02:27] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-24T13:56:03: [36m[2026-04-24 17:56:03] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-24T16:24:33: [36m[2026-04-24 20:24:33] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-24T22:40:46: [36m[2026-04-25 02:40:46] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-25T03:46:37: [36m[2026-04-25 07:46:37] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-25T05:54:29: [36m[2026-04-25 09:54:29] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-25T07:00:57: [32m[2026-04-25 11:00:57] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-04-25T07:00:59: [32m[2026-04-25 11:00:59] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-04-25T07:00:59: [32m[2026-04-25 11:00:59] [INFO] [2026-04-25T07:00:59.153Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-04-25T10:26:30: [36m[2026-04-25 14:26:30] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-25T11:08:57: [36m[2026-04-25 15:08:57] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-25T11:41:05: [36m[2026-04-25 15:41:05] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-25T13:41:55: [36m[2026-04-25 17:41:55] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-25T15:33:33: [36m[2026-04-25 19:33:33] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-25T16:03:46: [36m[2026-04-25 20:03:46] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-25T19:07:00: [36m[2026-04-25 23:07:00] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-26T04:11:02: [36m[2026-04-26 08:11:02] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-26T07:00:57: [32m[2026-04-26 11:00:57] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-04-26T07:01:00: [32m[2026-04-26 11:01:00] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-04-26T07:01:00: [32m[2026-04-26 11:01:00] [INFO] [2026-04-26T07:01:00.573Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-04-26T08:26:14: [36m[2026-04-26 12:26:14] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-26T10:01:08: [36m[2026-04-26 14:01:08] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-26T12:48:31: [36m[2026-04-26 16:48:31] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-26T19:08:45: [36m[2026-04-26 23:08:45] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-26T20:25:10: [36m[2026-04-27 00:25:10] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-26T22:35:21: [36m[2026-04-27 02:35:21] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-27T06:30:10: [36m[2026-04-27 10:30:10] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-27T07:00:58: [32m[2026-04-27 11:00:58] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-04-27T07:01:02: [32m[2026-04-27 11:01:02] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-04-27T07:01:02: [32m[2026-04-27 11:01:02] [INFO] [2026-04-27T07:01:02.286Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-04-27T08:44:01: [36m[2026-04-27 12:44:01] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-27T10:16:51: [36m[2026-04-27 14:16:51] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-27T11:32:30: [36m[2026-04-27 15:32:30] Пользователь: @shewasregina (Регина Вершинина, ID: 808914549) | Запрос: /tickets[0m
+2026-04-27T13:15:43: [36m[2026-04-27 17:15:43] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-27T13:47:01: [36m[2026-04-27 17:47:01] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-27T13:47:46: [36m[2026-04-27 17:47:46] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-27T16:01:39: [36m[2026-04-27 20:01:39] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-27T16:07:21: [36m[2026-04-27 20:07:21] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-27T16:20:28: [36m[2026-04-27 20:20:28] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-27T16:22:21: [36m[2026-04-27 20:22:21] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-27T19:18:52: [36m[2026-04-27 23:18:52] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-27T19:31:00: [36m[2026-04-27 23:31:00] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-27T19:35:52: [36m[2026-04-27 23:35:52] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-27T21:45:38: [36m[2026-04-28 01:45:38] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-27T23:16:14: [36m[2026-04-28 03:16:14] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-28T05:21:59: [36m[2026-04-28 09:21:59] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-28T05:43:24: [36m[2026-04-28 09:43:24] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-28T05:49:42: [36m[2026-04-28 09:49:42] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-28T06:37:45: [36m[2026-04-28 10:37:45] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-28T07:00:59: [32m[2026-04-28 11:00:59] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-04-28T07:01:02: [32m[2026-04-28 11:01:02] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-04-28T07:01:02: [32m[2026-04-28 11:01:02] [INFO] [2026-04-28T07:01:02.806Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-04-28T07:09:45: [36m[2026-04-28 11:09:45] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-28T08:56:47: [36m[2026-04-28 12:56:47] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-28T09:52:23: [36m[2026-04-28 13:52:23] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-28T11:54:03: [36m[2026-04-28 15:54:03] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-28T12:26:57: [36m[2026-04-28 16:26:57] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-28T14:37:57: [36m[2026-04-28 18:37:57] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-28T14:46:12: [36m[2026-04-28 18:46:12] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-28T17:51:43: [36m[2026-04-28 21:51:43] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-28T18:14:38: [36m[2026-04-28 22:14:38] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-28T18:52:56: [36m[2026-04-28 22:52:56] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-29T04:49:15: [36m[2026-04-29 08:49:15] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-29T04:49:37: [36m[2026-04-29 08:49:37] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-29T05:37:42: [36m[2026-04-29 09:37:42] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-29T06:57:47: [36m[2026-04-29 10:57:47] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-29T07:00:00: [32m[2026-04-29 11:00:00] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-04-29T07:00:03: [32m[2026-04-29 11:00:03] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-04-29T07:00:03: [32m[2026-04-29 11:00:03] [INFO] [2026-04-29T07:00:03.319Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-04-29T09:32:46: [36m[2026-04-29 13:32:46] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-29T11:22:22: [36m[2026-04-29 15:22:22] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-29T11:43:03: [36m[2026-04-29 15:43:03] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-04-29T12:16:27: [36m[2026-04-29 16:16:27] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-29T13:04:19: [36m[2026-04-29 17:04:19] Пользователь: @petlitskiy_aleksandr (Александр Петлицкий, ID: 544346415) | Запрос: /tickets[0m
+2026-04-29T14:39:45: [36m[2026-04-29 18:39:45] Пользователь: @y_yanpolskiy (Yan Yanpolskiy, ID: 36225141) | Запрос: /tickets[0m
+2026-04-29T15:12:13: [36m[2026-04-29 19:12:13] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-29T15:22:50: [36m[2026-04-29 19:22:50] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-29T15:26:11: [36m[2026-04-29 19:26:11] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-29T15:57:07: [36m[2026-04-29 19:57:07] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-29T18:46:56: [36m[2026-04-29 22:46:56] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-04-29T18:55:01: [36m[2026-04-29 22:55:01] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-29T21:08:21: [36m[2026-04-30 01:08:21] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-29T21:23:21: [36m[2026-04-30 01:23:21] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-30T01:05:29: [36m[2026-04-30 05:05:29] Пользователь: @anonymous (bui Jiang, ID: 5620918587) | Запрос: /start[0m
+2026-04-30T01:05:35: [36m[2026-04-30 05:05:35] Пользователь: @anonymous (bui Jiang, ID: 5620918587) | Запрос: неизвестная команда[0m
+2026-04-30T04:28:21: [36m[2026-04-30 08:28:21] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T05:29:11: [36m[2026-04-30 09:29:11] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-30T07:00:01: [32m[2026-04-30 11:00:01] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-04-30T07:00:04: [32m[2026-04-30 11:00:04] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-04-30T07:00:04: [32m[2026-04-30 11:00:04] [INFO] [2026-04-30T07:00:04.860Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-04-30T08:24:58: [36m[2026-04-30 12:24:58] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-30T11:03:04: [36m[2026-04-30 15:03:04] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-04-30T11:17:16: [36m[2026-04-30 15:17:16] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-30T11:17:19: [36m[2026-04-30 15:17:19] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T12:05:22: [36m[2026-04-30 16:05:22] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-30T12:51:43: [36m[2026-04-30 16:51:43] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T13:50:48: [36m[2026-04-30 17:50:48] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-30T14:17:00: [36m[2026-04-30 18:17:00] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-30T15:19:19: [36m[2026-04-30 19:19:19] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T15:37:32: [36m[2026-04-30 19:37:32] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-30T16:04:41: [36m[2026-04-30 20:04:41] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T16:11:20: [36m[2026-04-30 20:11:20] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T16:58:10: [36m[2026-04-30 20:58:10] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T17:02:38: [36m[2026-04-30 21:02:38] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T17:14:19: [36m[2026-04-30 21:14:19] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T18:38:42: [36m[2026-04-30 22:38:42] Пользователь: @y_yanpolskiy (Yan Yanpolskiy, ID: 36225141) | Запрос: /tickets[0m
+2026-04-30T19:06:47: [36m[2026-04-30 23:06:47] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-30T20:14:26: [36m[2026-05-01 00:14:26] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-04-30T20:44:11: [36m[2026-05-01 00:44:11] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-04-30T21:12:47: [36m[2026-05-01 01:12:47] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T06:25:29: [36m[2026-05-01 10:25:29] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-01T07:00:01: [32m[2026-05-01 11:00:01] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-01T07:00:05: [32m[2026-05-01 11:00:05] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-01T07:00:05: [32m[2026-05-01 11:00:05] [INFO] [2026-05-01T07:00:05.211Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-01T08:00:22: [36m[2026-05-01 12:00:22] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T08:09:46: [36m[2026-05-01 12:09:46] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-01T08:33:09: [36m[2026-05-01 12:33:09] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T08:45:13: [36m[2026-05-01 12:45:13] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T08:47:37: [36m[2026-05-01 12:47:37] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T10:45:57: [36m[2026-05-01 14:45:57] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T11:55:40: [36m[2026-05-01 15:55:40] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T11:59:31: [36m[2026-05-01 15:59:31] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-01T12:01:22: [36m[2026-05-01 16:01:22] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T12:08:07: [36m[2026-05-01 16:08:07] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T13:27:12: [36m[2026-05-01 17:27:12] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T13:56:38: [36m[2026-05-01 17:56:38] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T13:59:12: [36m[2026-05-01 17:59:12] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T14:10:34: [36m[2026-05-01 18:10:34] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T14:18:21: [36m[2026-05-01 18:18:21] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-01T16:09:18: [36m[2026-05-01 20:09:18] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-01T16:24:25: [36m[2026-05-01 20:24:25] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T16:51:25: [36m[2026-05-01 20:51:25] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T17:13:31: [36m[2026-05-01 21:13:31] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-05-01T17:44:40: [36m[2026-05-01 21:44:40] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T18:39:53: [36m[2026-05-01 22:39:53] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-01T19:13:14: [36m[2026-05-01 23:13:14] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-01T20:02:01: [36m[2026-05-02 00:02:01] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T20:31:07: [36m[2026-05-02 00:31:07] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T20:54:45: [36m[2026-05-02 00:54:45] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T21:25:46: [36m[2026-05-02 01:25:46] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-01T21:27:39: [36m[2026-05-02 01:27:39] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-01T22:20:31: [36m[2026-05-02 02:20:31] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T06:04:57: [36m[2026-05-02 10:04:57] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-02T07:00:02: [32m[2026-05-02 11:00:02] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-02T07:00:06: [32m[2026-05-02 11:00:06] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-02T07:00:06: [32m[2026-05-02 11:00:06] [INFO] [2026-05-02T07:00:06.670Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-02T08:11:03: [36m[2026-05-02 12:11:03] Пользователь: @Masrussian (Alex , ID: 465115116) | Запрос: /tickets[0m
+2026-05-02T08:14:28: [36m[2026-05-02 12:14:28] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-02T08:37:43: [36m[2026-05-02 12:37:43] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T10:27:47: [36m[2026-05-02 14:27:47] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T10:39:38: [36m[2026-05-02 14:39:38] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-02T10:40:08: [36m[2026-05-02 14:40:08] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-02T10:56:03: [36m[2026-05-02 14:56:03] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T11:03:34: [36m[2026-05-02 15:03:34] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-05-02T11:04:43: [36m[2026-05-02 15:04:43] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T11:07:02: [36m[2026-05-02 15:07:02] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T11:18:47: [36m[2026-05-02 15:18:47] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-02T11:48:09: [36m[2026-05-02 15:48:09] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T13:24:40: [36m[2026-05-02 17:24:40] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T15:11:02: [36m[2026-05-02 19:11:02] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-02T15:20:49: [36m[2026-05-02 19:20:49] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T15:23:40: [36m[2026-05-02 19:23:40] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T15:51:14: [36m[2026-05-02 19:51:14] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-02T15:59:01: [36m[2026-05-02 19:59:01] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T16:03:28: [36m[2026-05-02 20:03:28] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T16:19:05: [36m[2026-05-02 20:19:05] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T16:24:52: [36m[2026-05-02 20:24:52] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T16:28:37: [36m[2026-05-02 20:28:37] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T16:49:35: [36m[2026-05-02 20:49:35] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T16:53:50: [36m[2026-05-02 20:53:50] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T16:57:12: [36m[2026-05-02 20:57:12] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T17:07:42: [36m[2026-05-02 21:07:42] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T17:37:02: [36m[2026-05-02 21:37:02] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T17:58:56: [36m[2026-05-02 21:58:56] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T18:19:17: [36m[2026-05-02 22:19:17] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T18:25:17: [36m[2026-05-02 22:25:17] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-02T18:45:30: [36m[2026-05-02 22:45:30] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T18:57:12: [36m[2026-05-02 22:57:12] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T19:09:43: [36m[2026-05-02 23:09:43] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-02T19:14:10: [36m[2026-05-02 23:14:10] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T20:38:59: [36m[2026-05-03 00:38:59] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T21:00:51: [36m[2026-05-03 01:00:51] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-02T21:51:10: [36m[2026-05-03 01:51:10] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-02T22:31:27: [36m[2026-05-03 02:31:27] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T04:56:03: [36m[2026-05-03 08:56:03] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T05:48:17: [36m[2026-05-03 09:48:17] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-03T05:54:57: [36m[2026-05-03 09:54:57] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T06:12:49: [36m[2026-05-03 10:12:49] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T06:52:00: [36m[2026-05-03 10:52:00] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T06:58:11: [36m[2026-05-03 10:58:11] Пользователь: @y_yanpolskiy (Yan Yanpolskiy, ID: 36225141) | Запрос: /tickets[0m
+2026-05-03T06:58:25: [36m[2026-05-03 10:58:25] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T06:58:35: [36m[2026-05-03 10:58:35] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T07:00:03: [32m[2026-05-03 11:00:03] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-03T07:00:06: [32m[2026-05-03 11:00:06] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-03T07:00:06: [32m[2026-05-03 11:00:06] [INFO] [2026-05-03T07:00:06.725Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-03T07:03:32: [36m[2026-05-03 11:03:32] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T07:07:38: [36m[2026-05-03 11:07:38] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T07:15:42: [36m[2026-05-03 11:15:42] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T07:17:30: [36m[2026-05-03 11:17:30] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T07:22:53: [36m[2026-05-03 11:22:53] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T07:30:29: [36m[2026-05-03 11:30:29] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T07:31:05: [36m[2026-05-03 11:31:05] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-03T07:48:52: [36m[2026-05-03 11:48:52] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T07:52:20: [36m[2026-05-03 11:52:20] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T08:40:07: [36m[2026-05-03 12:40:07] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-03T08:43:10: [36m[2026-05-03 12:43:10] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T08:50:07: [36m[2026-05-03 12:50:07] Пользователь: @shewasregina (Регина Вершинина, ID: 808914549) | Запрос: /tickets[0m
+2026-05-03T09:43:13: [36m[2026-05-03 13:43:13] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-03T09:51:24: [36m[2026-05-03 13:51:24] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T10:22:45: [36m[2026-05-03 14:22:45] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T10:39:29: [36m[2026-05-03 14:39:29] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T10:49:42: [36m[2026-05-03 14:49:42] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T11:13:59: [36m[2026-05-03 15:13:59] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-03T11:28:10: [36m[2026-05-03 15:28:10] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T11:48:32: [36m[2026-05-03 15:48:32] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T12:10:23: [36m[2026-05-03 16:10:23] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T12:21:41: [36m[2026-05-03 16:21:41] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T12:27:21: [36m[2026-05-03 16:27:21] Пользователь: @y_yanpolskiy (Yan Yanpolskiy, ID: 36225141) | Запрос: /tickets[0m
+2026-05-03T12:43:42: [36m[2026-05-03 16:43:42] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-03T12:45:22: [36m[2026-05-03 16:45:22] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T12:45:55: [36m[2026-05-03 16:45:55] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T13:04:46: [36m[2026-05-03 17:04:46] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T13:07:40: [36m[2026-05-03 17:07:40] Пользователь: @Masrussian (Alex , ID: 465115116) | Запрос: /tickets[0m
+2026-05-03T13:11:26: [36m[2026-05-03 17:11:26] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T13:20:58: [36m[2026-05-03 17:20:58] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T13:29:51: [36m[2026-05-03 17:29:51] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T13:33:51: [36m[2026-05-03 17:33:51] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T13:38:09: [36m[2026-05-03 17:38:09] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T13:39:44: [36m[2026-05-03 17:39:44] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T13:39:51: [36m[2026-05-03 17:39:51] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T13:42:56: [36m[2026-05-03 17:42:56] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T13:59:38: [36m[2026-05-03 17:59:38] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-03T14:02:37: [36m[2026-05-03 18:02:37] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T14:03:37: [36m[2026-05-03 18:03:37] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-05-03T14:07:40: [36m[2026-05-03 18:07:40] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T14:15:40: [36m[2026-05-03 18:15:40] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T14:18:12: [36m[2026-05-03 18:18:12] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T14:44:29: [36m[2026-05-03 18:44:29] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-03T15:02:09: [36m[2026-05-03 19:02:09] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T16:18:21: [36m[2026-05-03 20:18:21] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-03T16:42:03: [36m[2026-05-03 20:42:03] Пользователь: @ArturKarimov (Артур Каримов, ID: 263690319) | Запрос: /start[0m
+2026-05-03T16:42:12: [36m[2026-05-03 20:42:12] Пользователь: @ArturKarimov (Артур Каримов, ID: 263690319) | Запрос: /tickets[0m
+2026-05-03T17:04:09: [36m[2026-05-03 21:04:09] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-03T17:36:04: [36m[2026-05-03 21:36:04] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-03T18:35:18: [36m[2026-05-03 22:35:18] Пользователь: @ArturKarimov (Артур Каримов, ID: 263690319) | Запрос: /tickets[0m
+2026-05-03T19:01:34: [36m[2026-05-03 23:01:34] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-03T21:04:08: [36m[2026-05-04 01:04:08] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-05-04T03:30:07: [36m[2026-05-04 07:30:07] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-04T05:34:47: [36m[2026-05-04 09:34:47] Пользователь: @ArturKarimov (Артур Каримов, ID: 263690319) | Запрос: /tickets[0m
+2026-05-04T07:00:04: [32m[2026-05-04 11:00:04] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-04T07:00:07: [32m[2026-05-04 11:00:07] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-04T07:00:07: [32m[2026-05-04 11:00:07] [INFO] [2026-05-04T07:00:07.975Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-04T08:26:45: [36m[2026-05-04 12:26:45] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-04T14:12:35: [36m[2026-05-04 18:12:35] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-04T17:43:19: [36m[2026-05-04 21:43:19] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-05T07:00:05: [32m[2026-05-05 11:00:05] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-05T07:00:06: [32m[2026-05-05 11:00:06] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-05T07:00:06: [32m[2026-05-05 11:00:06] [INFO] [2026-05-05T07:00:06.490Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-05T08:51:44: [36m[2026-05-05 12:51:44] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-05T13:50:21: [36m[2026-05-05 17:50:21] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-06T06:57:44: [36m[2026-05-06 10:57:44] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-06T07:00:06: [32m[2026-05-06 11:00:06] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-06T07:00:07: [32m[2026-05-06 11:00:07] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-06T07:00:07: [32m[2026-05-06 11:00:07] [INFO] [2026-05-06T07:00:07.664Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-06T07:22:07: [36m[2026-05-06 11:22:07] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-06T12:03:36: [36m[2026-05-06 16:03:36] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-06T12:17:53: [36m[2026-05-06 16:17:53] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-06T16:18:38: [36m[2026-05-06 20:18:38] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-06T16:18:40: [36m[2026-05-06 20:18:40] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-06T18:16:36: [36m[2026-05-06 22:16:36] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-07T07:00:06: [32m[2026-05-07 11:00:06] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-07T07:00:09: [32m[2026-05-07 11:00:09] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-07T07:00:09: [32m[2026-05-07 11:00:09] [INFO] [2026-05-07T07:00:09.152Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-07T07:23:40: [36m[2026-05-07 11:23:40] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-07T11:37:48: [36m[2026-05-07 15:37:48] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-07T12:01:16: [36m[2026-05-07 16:01:16] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-07T12:18:01: [36m[2026-05-07 16:18:01] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-07T12:19:56: [36m[2026-05-07 16:19:56] Пользователь: @shewasregina (Регина Вершинина, ID: 808914549) | Запрос: /tickets[0m
+2026-05-07T12:24:09: [36m[2026-05-07 16:24:09] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-07T14:24:08: [36m[2026-05-07 18:24:08] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-07T15:36:22: [36m[2026-05-07 19:36:22] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-05-08T06:43:38: [36m[2026-05-08 10:43:38] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-08T06:52:43: [36m[2026-05-08 10:52:43] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-08T07:00:07: [32m[2026-05-08 11:00:07] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-08T07:00:10: [32m[2026-05-08 11:00:10] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-08T07:00:10: [32m[2026-05-08 11:00:10] [INFO] [2026-05-08T07:00:10.519Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-08T09:13:10: [36m[2026-05-08 13:13:10] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-08T09:20:01: [36m[2026-05-08 13:20:01] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-08T12:26:34: [36m[2026-05-08 16:26:34] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-08T14:07:49: [36m[2026-05-08 18:07:49] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-08T15:24:06: [36m[2026-05-08 19:24:06] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-08T16:30:38: [36m[2026-05-08 20:30:38] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-08T17:53:24: [36m[2026-05-08 21:53:24] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-08T21:10:13: [36m[2026-05-09 01:10:13] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-09T07:00:08: [32m[2026-05-09 11:00:08] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-09T07:00:11: [32m[2026-05-09 11:00:11] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-09T07:00:11: [32m[2026-05-09 11:00:11] [INFO] [2026-05-09T07:00:11.143Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-09T07:24:20: [36m[2026-05-09 11:24:20] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-09T08:01:21: [36m[2026-05-09 12:01:21] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-09T11:18:47: [36m[2026-05-09 15:18:47] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-09T12:41:11: [36m[2026-05-09 16:41:11] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-09T12:55:11: [36m[2026-05-09 16:55:11] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-09T13:12:00: [36m[2026-05-09 17:12:00] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-09T13:21:02: [36m[2026-05-09 17:21:02] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-05-09T15:10:08: [36m[2026-05-09 19:10:08] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-09T17:21:22: [36m[2026-05-09 21:21:22] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-09T18:11:21: [36m[2026-05-09 22:11:21] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-09T18:23:11: [36m[2026-05-09 22:23:11] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-09T19:12:03: [36m[2026-05-09 23:12:03] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-09T19:23:07: [36m[2026-05-09 23:23:07] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-09T19:30:38: [36m[2026-05-09 23:30:38] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-09T19:45:06: [36m[2026-05-09 23:45:06] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-09T19:56:32: [36m[2026-05-09 23:56:32] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T04:50:52: [36m[2026-05-10 08:50:52] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-10T05:18:28: [36m[2026-05-10 09:18:28] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-10T07:00:09: [32m[2026-05-10 11:00:09] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-10T07:00:11: [32m[2026-05-10 11:00:11] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-10T07:00:11: [32m[2026-05-10 11:00:11] [INFO] [2026-05-10T07:00:11.829Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-10T07:04:52: [36m[2026-05-10 11:04:52] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T09:43:06: [36m[2026-05-10 13:43:06] Пользователь: @Masrussian (Alex , ID: 465115116) | Запрос: /tickets[0m
+2026-05-10T12:33:12: [36m[2026-05-10 16:33:12] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T12:50:59: [36m[2026-05-10 16:50:59] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-10T14:21:10: [36m[2026-05-10 18:21:10] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T14:44:45: [36m[2026-05-10 18:44:45] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-10T15:29:41: [36m[2026-05-10 19:29:41] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T15:35:38: [36m[2026-05-10 19:35:38] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-05-10T16:19:45: [36m[2026-05-10 20:19:45] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T17:36:07: [36m[2026-05-10 21:36:07] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T17:49:22: [36m[2026-05-10 21:49:22] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T18:07:25: [36m[2026-05-10 22:07:25] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T19:01:39: [36m[2026-05-10 23:01:39] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-05-10T20:30:31: [36m[2026-05-11 00:30:31] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T20:30:36: [36m[2026-05-11 00:30:36] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T20:32:51: [36m[2026-05-11 00:32:50] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-10T21:41:54: [36m[2026-05-11 01:41:54] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-10T21:42:01: [36m[2026-05-11 01:42:01] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-10T22:01:03: [36m[2026-05-11 02:01:03] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-11T02:22:24: [36m[2026-05-11 06:22:24] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T02:22:38: [36m[2026-05-11 06:22:38] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T02:25:01: [36m[2026-05-11 06:25:01] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T02:25:30: [36m[2026-05-11 06:25:30] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T02:51:31: [36m[2026-05-11 06:51:31] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T02:52:19: [36m[2026-05-11 06:52:19] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T03:04:11: [36m[2026-05-11 07:04:11] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T03:11:35: [36m[2026-05-11 07:11:35] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T03:12:26: [36m[2026-05-11 07:12:26] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-11T03:12:34: [36m[2026-05-11 07:12:34] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-11T03:13:07: [36m[2026-05-11 07:13:07] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T03:13:38: 
+Получен сигнал SIGINT, останавливаем бота...
+2026-05-11T03:13:38: [32m[2026-05-11 07:13:38] [INFO] Планировщик остановлен [0m
+2026-05-11T03:13:42: [32m[2026-05-11 07:13:42] [INFO] Бот остановлен [0m
+2026-05-11T03:13:42: [32m[2026-05-11 07:13:42] [INFO] Сервер запущен! Логирование настроено. [0m
+2026-05-11T03:13:42: [32m[2026-05-11 07:13:42] [INFO] Планировщик автоматической отправки отчетов запущен [0m
+2026-05-11T03:13:42: [32m[2026-05-11 07:13:42] [INFO] Отчеты будут отправляться в канал -1002396067751 каждый день в 11:00 по самарскому времени [0m
+2026-05-11T03:13:49: [36m[2026-05-11 07:13:49] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T03:14:33: [36m[2026-05-11 07:14:33] Пользователь: @ovsepus873 (Овсеп Адумян, ID: 558808065) | Запрос: /tickets[0m
+2026-05-11T03:38:55: [36m[2026-05-11 07:38:55] Пользователь: @petlitskiy_aleksandr (Александр Петлицкий, ID: 544346415) | Запрос: /tickets[0m
+2026-05-11T04:15:16: [36m[2026-05-11 08:15:16] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T04:16:26: [36m[2026-05-11 08:16:26] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-11T04:38:50: [36m[2026-05-11 08:38:50] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T04:57:04: [36m[2026-05-11 08:57:04] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T05:52:33: [36m[2026-05-11 09:52:33] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-11T06:01:18: [36m[2026-05-11 10:01:18] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T06:05:19: [36m[2026-05-11 10:05:19] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T06:23:38: [36m[2026-05-11 10:23:38] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-11T06:35:05: [36m[2026-05-11 10:35:05] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-11T07:00:42: [32m[2026-05-11 11:00:42] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-11T07:00:45: [32m[2026-05-11 11:00:45] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-11T07:00:45: [32m[2026-05-11 11:00:45] [INFO] [2026-05-11T07:00:45.866Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-11T07:32:41: [36m[2026-05-11 11:32:41] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T07:49:45: [36m[2026-05-11 11:49:45] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T08:06:25: [36m[2026-05-11 12:06:25] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T08:11:00: [36m[2026-05-11 12:11:00] Пользователь: @anonymous (Воробьев Владимир, ID: 468599147) | Запрос: /tickets[0m
+2026-05-11T08:11:57: [36m[2026-05-11 12:11:57] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T08:19:07: [36m[2026-05-11 12:19:07] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T08:23:22: [36m[2026-05-11 12:23:22] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T09:01:15: [36m[2026-05-11 13:01:15] Пользователь: @y_yanpolskiy (Yan Yanpolskiy, ID: 36225141) | Запрос: /tickets[0m
+2026-05-11T09:03:22: [36m[2026-05-11 13:03:22] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T09:36:30: [36m[2026-05-11 13:36:30] Пользователь: @y_yanpolskiy (Yan Yanpolskiy, ID: 36225141) | Запрос: /tickets[0m
+2026-05-11T09:39:58: [36m[2026-05-11 13:39:58] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T09:54:43: [36m[2026-05-11 13:54:43] Пользователь: @a_tsukanov (Andrey , ID: 157535358) | Запрос: /tickets[0m
+2026-05-11T10:04:55: [36m[2026-05-11 14:04:55] Пользователь: @slava_tfdf (Vyacheslav Kuznetsov, ID: 256678699) | Запрос: /tickets[0m
+2026-05-11T15:07:15: [36m[2026-05-11 19:07:15] Пользователь: @Mint73 (Svetlana Spiridonova, ID: 1165682783) | Запрос: /tickets[0m
+2026-05-11T16:39:53: [36m[2026-05-11 20:39:53] Пользователь: @kliushev (Konstantin Kliushev, ID: 187851445) | Запрос: /tickets[0m
+2026-05-12T07:00:43: [32m[2026-05-12 11:00:43] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-12T07:00:47: [32m[2026-05-12 11:00:47] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-12T07:00:47: [32m[2026-05-12 11:00:47] [INFO] [2026-05-12T07:00:47.287Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-13T07:00:44: [32m[2026-05-13 11:00:44] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-13T07:00:44: [32m[2026-05-13 11:00:44] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-13T07:00:44: [32m[2026-05-13 11:00:44] [INFO] [2026-05-13T07:00:44.826Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-14T07:00:45: [32m[2026-05-14 11:00:45] [INFO] Отправка автоматического отчета о билетах в канал... [0m
+2026-05-14T07:00:45: [32m[2026-05-14 11:00:45] [INFO] Отчет о билетах успешно отправлен в канал [0m
+2026-05-14T07:00:45: [32m[2026-05-14 11:00:45] [INFO] [2026-05-14T07:00:45.727Z] Автоматическая отправка отчета о билетах в канал -1002396067751 - УСПЕШНО [0m
+2026-05-14T07:12:27: 
+Получен сигнал SIGINT, останавливаем бота...
+2026-05-14T07:12:27: [32m[2026-05-14 11:12:27] [INFO] Планировщик остановлен [0m
+2026-05-14T07:12:27: [32m[2026-05-14 11:12:27] [INFO] Бот остановлен [0m
