@@ -53,5 +53,8 @@ module.exports = {
 		filePath:
 			process.env.TICKETS_SNAPSHOTS_PATH ||
 			path.join(process.cwd(), 'data', 'tickets-snapshots.json'),
+		seasonsFilePath:
+			process.env.SEASONS_SNAPSHOTS_PATH ||
+			path.join(process.cwd(), 'data', 'seasons-snapshots.json'),
 	},
 }

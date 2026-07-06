@@ -120,10 +120,57 @@ function formatTicketsMessage(results) {
 	return message
 }
 
+/**
+ * Форматирование сообщения об абонементах
+ * @param {Array} results - Результаты по абонементам
+ * @returns {string}
+ */
+function formatSeasonsMessage(results) {
+	let message = '<b>ИНФОРМАЦИЯ ПО АБОНЕМЕНТАМ</b>\n\n'
+
+	for (let i = 0; i < results.length; i++) {
+		const result = results[i]
+
+		if (result.error) {
+			message += `❌ <b>«${result.season.name}»</b>\n`
+			message += `Ошибка: ${result.error}\n\n`
+			continue
+		}
+
+		const { season, tickets, previousMetrics } = result
+		const pm = previousMetrics || null
+		const averagePrice =
+			tickets.count > 0 ? Math.round(tickets.totalPrice / tickets.count) : 0
+
+		message += `<b>«${season.name}»</b>\n\n`
+		message += `Продано: <b>${formatNumber(tickets.count)}</b>${formatMetricDeltaSuffix(
+			tickets.count,
+			pm ? pm.sold : null
+		)}\n`
+		message += `Пригласительных: <b>${formatNumber(tickets.invites)}</b>${formatMetricDeltaSuffix(
+			tickets.invites,
+			pm ? pm.invites : null
+		)}\n`
+		message += `Сумма: <b>${formatNumber(tickets.totalPrice)} ₽</b>${formatMetricDeltaSuffix(
+			tickets.totalPrice,
+			pm ? pm.sum : null
+		)}\n`
+		message += `Средняя стоимость: <b>${formatNumber(averagePrice)} ₽</b>\n`
+		message += `Итого: <b>${formatNumber(tickets.allCount)}</b>\n`
+
+		if (i < results.length - 1) {
+			message += '\n' + '─'.repeat(12) + '\n\n'
+		}
+	}
+
+	return message
+}
+
 module.exports = {
 	formatNumber,
 	formatMetricDeltaSuffix,
 	formatMatchHeading,
 	formatSamaraTime,
 	formatTicketsMessage,
+	formatSeasonsMessage,
 }
