@@ -7,6 +7,8 @@ const {
 } = require('../utils/timeUtils')
 const { getSnapshotForDate } = require('./seasonsSnapshotStore')
 
+const ORDER_INFO_BATCH_SIZE = 10
+
 /**
  * Подмешать вчерашние метрики из снимка (ключ seasonId) для дельт в сообщении.
  * @param {Array} results
@@ -53,16 +55,49 @@ function normalizeOrders(result) {
 
 /**
  * @param {unknown} result
- * @returns {Record<string, unknown>|null}
+ * @returns {Array<Record<string, unknown>>}
  */
-function normalizeOrderInfo(result) {
+function normalizeOrderInfoList(result) {
 	if (!result) {
-		return null
+		return []
 	}
-	if (Array.isArray(result)) {
-		return result[0] || null
+	return Array.isArray(result) ? result.filter(Boolean) : [result]
+}
+
+/**
+ * @param {Array<Record<string, unknown>>} orders
+ * @param {number} seasonId
+ * @returns {Array<{ price: number }>}
+ */
+function extractSeasonPlacesFromOrders(orders, seasonId) {
+	const places = []
+	for (const order of orders) {
+		if (!order || !Array.isArray(order.season_places)) {
+			continue
+		}
+		for (const place of order.season_places) {
+			if (
+				Number(place.season_id) === seasonId &&
+				Number(place.status) === 1
+			) {
+				places.push(place)
+			}
+		}
 	}
-	return result
+	return places
+}
+
+/**
+ * @param {Array<number>} items
+ * @param {number} size
+ * @returns {Array<Array<number>>}
+ */
+function chunkArray(items, size) {
+	const chunks = []
+	for (let i = 0; i < items.length; i += size) {
+		chunks.push(items.slice(i, i + size))
+	}
+	return chunks
 }
 
 /**
@@ -203,19 +238,48 @@ class SeasonService {
 	 * @param {number} orderId
 	 * @param {number} seasonId
 	 */
-	async fetchSeasonPlacesFromOrder(orderId, seasonId) {
-		const data = await this.fetchCrm('crm.order.info', {
-			order_id: orderId,
-		})
-		const order = normalizeOrderInfo(data.result)
-		if (!order || !Array.isArray(order.season_places)) {
+	async fetchSeasonPlacesFromOrdersBatch(orderIds, seasonId) {
+		if (orderIds.length === 0) {
 			return []
 		}
 
-		return order.season_places.filter(
-			place =>
-				Number(place.season_id) === seasonId && Number(place.status) === 1
+		const data = await this.fetchCrm('crm.order.info', {
+			order_id: orderIds,
+		})
+		return extractSeasonPlacesFromOrders(
+			normalizeOrderInfoList(data.result),
+			seasonId
 		)
+	}
+
+	/**
+	 * Места абonementа: один батч на все заказы, при ошибке — чанки по ORDER_INFO_BATCH_SIZE.
+	 * @param {number[]} orderIds
+	 * @param {number} seasonId
+	 */
+	async fetchSeasonPlacesFromOrders(orderIds, seasonId) {
+		if (orderIds.length === 0) {
+			return []
+		}
+
+		try {
+			return await this.fetchSeasonPlacesFromOrdersBatch(orderIds, seasonId)
+		} catch (error) {
+			console.warn(
+				`crm.order.info batch (${orderIds.length} orders) failed, fallback to chunks of ${ORDER_INFO_BATCH_SIZE}:`,
+				error.message
+			)
+
+			const places = []
+			for (const chunk of chunkArray(orderIds, ORDER_INFO_BATCH_SIZE)) {
+				const chunkPlaces = await this.fetchSeasonPlacesFromOrdersBatch(
+					chunk,
+					seasonId
+				)
+				places.push(...chunkPlaces)
+			}
+			return places
+		}
 	}
 
 	/**
@@ -228,15 +292,14 @@ class SeasonService {
 			salesStartDate
 		)
 
-		const places = []
-		for (const orderId of orderIds) {
-			const seasonPlaces = await this.fetchSeasonPlacesFromOrder(
-				orderId,
-				season.seasonId
-			)
-			places.push(...seasonPlaces)
+		if (orderIds.length === 0) {
+			return aggregateSeasonPlaces([])
 		}
 
+		const places = await this.fetchSeasonPlacesFromOrders(
+			orderIds,
+			season.seasonId
+		)
 		return aggregateSeasonPlaces(places)
 	}
 
