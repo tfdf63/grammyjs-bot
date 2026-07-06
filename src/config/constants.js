@@ -22,6 +22,10 @@ const botCommands = [
 		description: 'Информация о билетах',
 	},
 	{
+		command: 'seasons',
+		description: 'Информация по абонементам',
+	},
+	{
 		command: 'qrcode',
 		description: 'Создать QR-код с UTM меткой',
 	},

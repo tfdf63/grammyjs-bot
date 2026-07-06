@@ -23,6 +23,7 @@ const { colors } = require('./config/constants')
 // Импорты сервисов
 const AuthService = require('./services/authService')
 const TicketsService = require('./services/ticketsService')
+const SeasonService = require('./services/seasonService')
 const QRCodeService = require('./services/qrCodeService')
 
 // Импорты middleware
@@ -32,6 +33,7 @@ const ErrorHandler = require('./middleware/errorHandler')
 // Импорты обработчиков
 const CommonHandler = require('./handlers/commonHandler')
 const TicketsHandler = require('./handlers/ticketsHandler')
+const SeasonsHandler = require('./handlers/seasonsHandler')
 const QRCodeHandler = require('./handlers/qrCodeHandler')
 
 // Импорт планировщика
@@ -46,15 +48,21 @@ class TelegramBot {
 		// Инициализация сервисов
 		this.authService = new AuthService()
 		this.ticketsService = new TicketsService(this.authService)
+		this.seasonService = new SeasonService(this.authService)
 		this.qrCodeService = new QRCodeService()
 
 		// Инициализация обработчиков
 		this.commonHandler = new CommonHandler()
 		this.ticketsHandler = new TicketsHandler(this.ticketsService)
+		this.seasonsHandler = new SeasonsHandler(this.seasonService)
 		this.qrCodeHandler = new QRCodeHandler(this.qrCodeService)
 
 		// Инициализация планировщика
-		this.scheduler = new ReportScheduler(this.bot, this.ticketsService)
+		this.scheduler = new ReportScheduler(
+			this.bot,
+			this.ticketsService,
+			this.seasonService
+		)
 
 		this.setupBot()
 	}
@@ -79,8 +87,10 @@ class TelegramBot {
 		// Middleware для логирования
 		this.bot.use(this.logger.middleware())
 
-		// Настройка команд
-		this.setupCommands()
+		// Настройка команд (async — не блокируем старт)
+		void this.setupCommands().catch(error => {
+			console.error('Ошибка при регистрации команд бота:', error)
+		})
 
 		// Настройка обработчиков
 		this.setupHandlers()
@@ -106,6 +116,11 @@ class TelegramBot {
 		// Команда /tickets
 		this.bot.command('tickets', ctx =>
 			this.ticketsHandler.handleTicketsCommand(ctx)
+		)
+
+		// Команда /seasons
+		this.bot.command('seasons', ctx =>
+			this.seasonsHandler.handleSeasonsCommand(ctx)
 		)
 
 		// Команда /test_channel

@@ -1,13 +1,15 @@
 const { shouldSendReport, getSamaraCalendarTodayString } = require('../utils/timeUtils')
 const { filterMatchesForTickets } = require('../utils/matchFilter')
-const { mergeSnapshotForDate } = require('../services/ticketsSnapshotStore')
+const { mergeSnapshotForDate: mergeTicketsSnapshotForDate } = require('../services/ticketsSnapshotStore')
+const { mergeSnapshotForDate: mergeSeasonsSnapshotForDate } = require('../services/seasonsSnapshotStore')
 const config = require('../config')
 const Logger = require('../middleware/logger')
 
 class ReportScheduler {
-	constructor(bot, ticketsService) {
+	constructor(bot, ticketsService, seasonService) {
 		this.bot = bot
 		this.ticketsService = ticketsService
+		this.seasonService = seasonService
 		this.logger = new Logger()
 		this.isRunning = false
 	}
@@ -26,13 +28,13 @@ class ReportScheduler {
 		// Проверяем каждую минуту
 		this.interval = setInterval(() => {
 			if (shouldSendReport()) {
-				this.sendTicketsToChannel()
+				this.sendReportsToChannel()
 			}
 		}, config.scheduler.checkInterval)
 
 		this.logger.info('Планировщик автоматической отправки отчетов запущен')
 		this.logger.info(
-			`Отчеты будут отправляться в канал ${config.bot.channelId} каждый день в ${config.scheduler.reportHour}:00 по самарскому времени`
+			`Отчеты по билетам и абонементам будут отправляться в канал ${config.bot.channelId} каждый день в ${config.scheduler.reportHour}:00 по самарскому времени`
 		)
 	}
 
@@ -46,6 +48,14 @@ class ReportScheduler {
 		}
 		this.isRunning = false
 		this.logger.info('Планировщик остановлен')
+	}
+
+	/**
+	 * Отправка отчётов о билетах и абонементах в канал
+	 */
+	async sendReportsToChannel() {
+		await this.sendTicketsToChannel()
+		await this.sendSeasonsToChannel()
 	}
 
 	/**
@@ -66,29 +76,41 @@ class ReportScheduler {
 				disable_web_page_preview: true,
 			})
 
-			mergeSnapshotForDate(getSamaraCalendarTodayString(), snapshotMap)
+			mergeTicketsSnapshotForDate(getSamaraCalendarTodayString(), snapshotMap)
 
 			this.logger.info('Отчет о билетах успешно отправлен в канал')
-
-			// Логируем успешную отправку
-			const logEntry = `[${new Date().toISOString()}] Автоматическая отправка отчета о билетах в канал ${
-				config.bot.channelId
-			} - УСПЕШНО`
-			this.logger.info(logEntry)
 		} catch (error) {
-			// Не логируем ошибку как критическую, чтобы не вызывать перезапуск
 			this.logger.warn(
-				'Ошибка при отправке отчета в канал (не критическая)',
+				'Ошибка при отправке отчета о билетах в канал (не критическая)',
 				error.message
 			)
+		}
+	}
 
-			// Логируем ошибку
-			const logEntry = `[${new Date().toISOString()}] Ошибка при автоматической отправке отчета в канал ${
-				config.bot.channelId
-			}: ${error.message}`
-			this.logger.warn(logEntry)
+	/**
+	 * Отправка информации об абонементах в канал
+	 */
+	async sendSeasonsToChannel() {
+		try {
+			this.logger.info('Отправка автоматического отчета об абонементах в канал...')
 
-			// НЕ выбрасываем ошибку дальше, чтобы не вызывать перезапуск процесса
+			const seasons = require('../../seasons')
+			const { message, snapshotMap } =
+				await this.seasonService.buildChannelSeasonsReport(seasons)
+
+			await this.bot.api.sendMessage(config.bot.channelId, message, {
+				parse_mode: 'HTML',
+				disable_web_page_preview: true,
+			})
+
+			mergeSeasonsSnapshotForDate(getSamaraCalendarTodayString(), snapshotMap)
+
+			this.logger.info('Отчет об абонементах успешно отправлен в канал')
+		} catch (error) {
+			this.logger.warn(
+				'Ошибка при отправке отчета об абонементах в канал (не критическая)',
+				error.message
+			)
 		}
 	}
 }
