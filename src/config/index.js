@@ -48,6 +48,7 @@ module.exports = {
 	scheduler: {
 		reportHour: 11, // Время отправки отчета (по самарскому времени)
 		checkInterval: 60 * 1000, // Интервал проверки (1 минута)
+		seasonsReportEnabled: process.env.SCHEDULED_SEASONS_REPORT_ENABLED === 'true',
 	},
 	snapshots: {
 		filePath:

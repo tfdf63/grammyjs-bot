@@ -33,8 +33,11 @@ class ReportScheduler {
 		}, config.scheduler.checkInterval)
 
 		this.logger.info('Планировщик автоматической отправки отчетов запущен')
+		const reportTypes = config.scheduler.seasonsReportEnabled
+			? 'по билетам и абонементам'
+			: 'по билетам'
 		this.logger.info(
-			`Отчеты по билетам и абонементам будут отправляться в канал ${config.bot.channelId} каждый день в ${config.scheduler.reportHour}:00 по самарскому времени`
+			`Отчеты ${reportTypes} будут отправляться в канал ${config.bot.channelId} каждый день в ${config.scheduler.reportHour}:00 по самарскому времени`
 		)
 	}
 
@@ -51,11 +54,13 @@ class ReportScheduler {
 	}
 
 	/**
-	 * Отправка отчётов о билетах и абонементах в канал
+	 * Отправка запланированных отчётов в канал
 	 */
 	async sendReportsToChannel() {
 		await this.sendTicketsToChannel()
-		await this.sendSeasonsToChannel()
+		if (config.scheduler.seasonsReportEnabled) {
+			await this.sendSeasonsToChannel()
+		}
 	}
 
 	/**
