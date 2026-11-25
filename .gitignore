@@ -7,3 +7,5 @@ data/tickets-snapshots.json
 data/tickets-snapshots.json.tmp
 data/seasons-snapshots.json
 data/seasons-snapshots.json.tmp
+notion.md
+/logs/
